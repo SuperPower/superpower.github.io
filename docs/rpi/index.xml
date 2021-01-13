@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RASPI POWER PACK on Super Power IoT</title>
+    <link>https://superpower.github.io/docs/rpi/</link>
+    <description>Recent content in RASPI POWER PACK on Super Power IoT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://superpower.github.io/docs/rpi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overview</title>
+      <link>https://superpower.github.io/docs/rpi/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/rpi/overview/</guid>
+      <description>This project is currently still under development.
+The Super Power RPi edition is a battery backup unit for the Raspberry Pi single board computer. It is meant to work with the Raspberry Pi 3 and 4.
+Design#The design is based on the bq25895 charger IC and the TPS61088 boost converter IC. It also integrates an STM32F412 microcontroller to provide timing and control independent of the Raspberry Pi.</description>
+    </item>
+    
+  </channel>
+</rss>

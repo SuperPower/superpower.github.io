@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SuperPower on Super Power IoT</title>
+    <link>https://superpower.github.io/</link>
+    <description>Recent content in SuperPower on Super Power IoT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:23 +0000</lastBuildDate><atom:link href="https://superpower.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guidelines</title>
+      <link>https://superpower.github.io/docs/project/guidelines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/project/guidelines/</guid>
+      <description>Guidelines#Good schematics show you the circuit. Bad schematics make you decipher them. Here you can find a bunch of guidelines we set up to get consistent schematics along the project.
+Schematics#Clean Text placement# After placing a symbol make sure the designator is close to the symbol and does not overlap other text or tracks Make some space and move parts if they are too close Do not place text verticaly  Layout flow# Logical flow from left to right Power connectioncs should go up to positive voltages and down to negative voltages Rotate common symbols the same way to find similarities faster in a schematics  Schematic Symbols# Show pins of an IC in a position relevant to their function, not how they happen to stick out of the chip.</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>https://superpower.github.io/docs/rpi/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/rpi/overview/</guid>
+      <description>This project is currently still under development.
+The Super Power RPi edition is a battery backup unit for the Raspberry Pi single board computer. It is meant to work with the Raspberry Pi 3 and 4.
+Design#The design is based on the bq25895 charger IC and the TPS61088 boost converter IC. It also integrates an STM32F412 microcontroller to provide timing and control independent of the Raspberry Pi.</description>
+    </item>
+    
+    <item>
+      <title>Schematics</title>
+      <link>https://superpower.github.io/docs/uc/lowcost/schematics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/uc/lowcost/schematics/</guid>
+      <description>Use &amp;ldquo;shift + mouse wheel&amp;rdquo; to zoom without moving the pageTop View#Full screenRaw SVG in a new pagefunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 3,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-b64f3224e691b250&#39; ,params);window[&#34;svg_b64f3224e691b250&#34;] = svg_pzlet button = document.</description>
+    </item>
+    
+    <item>
+      <title>Schematics</title>
+      <link>https://superpower.github.io/docs/uc/original/schematics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/uc/original/schematics/</guid>
+      <description>Use &amp;ldquo;shift + mouse wheel&amp;rdquo; to zoom without moving the pageTop View#Full screenRaw SVG in a new pagefunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 3,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-df080510d1ba4dd6&#39; ,params);window[&#34;svg_df080510d1ba4dd6&#34;] = svg_pzlet button = document.</description>
+    </item>
+    
+    <item>
+      <title>Bill Of Materials</title>
+      <link>https://superpower.github.io/docs/uc/original/bom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/uc/original/bom/</guid>
+      <description>BOM#Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-cd0357184624c048&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-cd0357184624c048&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>https://superpower.github.io/docs/project/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/project/license/</guid>
+      <description>CERN Open Hardware Licence Version 2 - Weakly Reciprocal
+Preamble
+CERN has developed this licence to promote collaboration among hardware designers and to provide a legal tool which supports the freedom to use, study, modify, share and distribute hardware designs and products based on those designs. Version 2 of the CERN Open Hardware Licence comes in three variants: CERN-OHL-P (permissive); and two reciprocal licences: this licence, CERN-OHL-W (weakly reciprocal) and CERN-OHL-S (strongly reciprocal).</description>
+    </item>
+    
+    <item>
+      <title>Doc How to</title>
+      <link>https://superpower.github.io/docs/project/howto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/project/howto/</guid>
+      <description>This documentation is created with hugo a static website generator
+install hugo#Installing hugo is quite simple, as it&amp;rsquo;s a standalone binary that can be downloaded and added to the system path
+ hugo getting-started : installing  clone this repo#Note the recusive clone to add the git submodules as well
+&amp;gt;git clone --recursive https://github.com/Informaticore/SuperPower&amp;gt;cd SuperPower&amp;gt;cd website_work_dir test locally#no generation is required to test locally, hugo takes care of generating and serving</description>
+    </item>
+    
+    <item>
+      <title>Requirements</title>
+      <link>https://superpower.github.io/docs/uc/requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/uc/requirements/</guid>
+      <description>Requirements#Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-c1faa48d69c2c798&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-c1faa48d69c2c798&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
+    </item>
+    
+    <item>
+      <title>Workflow</title>
+      <link>https://superpower.github.io/docs/uc/workflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/uc/workflow/</guid>
+      <description>Branching and Pull-Requests# The master is the single point of truth and the latest version of the board. Only Merge-Requests are allowed to push changes onto the master. each merge-request needs 2 reviewers to be accepted. feature branches should start with the term feature/ and the name of the feature which will be implemented try to commit often and atomar and give each commit a nice description of what had been done use words like added, fixed, changed etc.</description>
+    </item>
+    
+    <item>
+      <title>Diagrams</title>
+      <link>https://superpower.github.io/docs/uc/diagrams/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/uc/diagrams/</guid>
+      <description>Block diagram#Use case#</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://superpower.github.io/docs/project/guidelines/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/uc/original/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/rpi/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/project/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/uc/lowcost/schematics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/uc/original/schematics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/uc/original/bom/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/uc/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/project/license/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/uc/lowcost/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/project/howto/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/rpi/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/uc/requirements/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/uc/workflow/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/uc/diagrams/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/</loc>
+    <lastmod>2020-10-06T08:48:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/</loc>
+    <lastmod>2020-10-06T08:48:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/tags/</loc>
+  </url>
+  
+</urlset>

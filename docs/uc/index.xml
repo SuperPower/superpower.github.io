@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ESP32 SOLAR &#34;APPOLO&#34; on Super Power IoT</title>
+    <link>https://superpower.github.io/docs/uc/</link>
+    <description>Recent content in ESP32 SOLAR &#34;APPOLO&#34; on Super Power IoT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://superpower.github.io/docs/uc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Requirements</title>
+      <link>https://superpower.github.io/docs/uc/requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/uc/requirements/</guid>
+      <description>Requirements#Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-c1faa48d69c2c798&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-c1faa48d69c2c798&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
+    </item>
+    
+    <item>
+      <title>Workflow</title>
+      <link>https://superpower.github.io/docs/uc/workflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/uc/workflow/</guid>
+      <description>Branching and Pull-Requests# The master is the single point of truth and the latest version of the board. Only Merge-Requests are allowed to push changes onto the master. each merge-request needs 2 reviewers to be accepted. feature branches should start with the term feature/ and the name of the feature which will be implemented try to commit often and atomar and give each commit a nice description of what had been done use words like added, fixed, changed etc.</description>
+    </item>
+    
+    <item>
+      <title>Diagrams</title>
+      <link>https://superpower.github.io/docs/uc/diagrams/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/uc/diagrams/</guid>
+      <description>Block diagram#Use case#</description>
+    </item>
+    
+  </channel>
+</rss>

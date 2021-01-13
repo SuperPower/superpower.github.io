@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta name="generator" content="Hugo 0.79.1" />
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="This project is currently still under development.
+The Super Power RPi edition is a battery backup unit for the Raspberry Pi single board computer. It is meant to work with the Raspberry Pi 3 and 4.
+Design#The design is based on the bq25895 charger IC and the TPS61088 boost converter IC. It also integrates an STM32F412 microcontroller to provide timing and control independent of the Raspberry Pi.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Overview" />
+<meta property="og:description" content="This project is currently still under development.
+The Super Power RPi edition is a battery backup unit for the Raspberry Pi single board computer. It is meant to work with the Raspberry Pi 3 and 4.
+Design#The design is based on the bq25895 charger IC and the TPS61088 boost converter IC. It also integrates an STM32F412 microcontroller to provide timing and control independent of the Raspberry Pi." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://superpower.github.io/docs/rpi/overview/" />
+
+<title>Overview | Super Power IoT</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.0f40b4e83b0db00d11c595295e7f5f85f51436d20a5b6790534cb30c9f46a201.css" integrity="sha256-D0C06DsNsA0RxZUpXn9fhfUUNtIKW2eQU0yzDJ9GogE=">
+<script defer src="/en.search.min.8d080f0dc70a84f1ae7454257eaa92a5e936dd2eae5a622477f23816e04eb747.js" integrity="sha256-jQgPDccKhPGudFQlfqqSpek23S6uWmIkd/I4FuBOt0c="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>Super Power IoT</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>Project</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/project/guidelines/" class="">Guidelines</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/project/license/" class="">License</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/project/howto/" class="">Doc How to</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>ESP32 SOLAR &#34;APPOLO&#34;</span>
+  
+
+          
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>Original Variant</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/uc/original/schematics/" class="">Schematics</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/uc/original/bom/" class="">Bill Of Materials</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>Low Cost Variant</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/uc/lowcost/schematics/" class="">Schematics</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/uc/requirements/" class="">Requirements</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/uc/workflow/" class="">Workflow</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/uc/diagrams/" class="">Diagrams</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>RASPI POWER PACK</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/rpi/overview/" class=" active">Overview</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <script src="/js/svg-pan-zoom.min.js"></script>
+<div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Overview</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#design">Design</a></li>
+    <li><a href="#physical-form-factor">Physical Form Factor</a></li>
+    <li><a href="#use-cases">Use Cases</a></li>
+    <li><a href="#potential-future-versions">Potential future versions</a></li>
+  </ul>
+</nav>
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><p>This project is currently still under development.</p>
+<p>The Super Power RPi edition is a battery backup unit for the Raspberry Pi single board computer.  It is meant to work
+with the Raspberry Pi 3 and 4.</p>
+<h2 id="design">
+  Design
+  <a class="anchor" href="#design">#</a>
+</h2>
+<p>The design is based on the bq25895 charger IC and the TPS61088 boost converter IC.  It also integrates an STM32F412
+microcontroller to provide timing and control independent of the Raspberry Pi.</p>
+<p>The bq25895 provides some specific benefits for this project.  It has a low series resistance in it&rsquo;s FET, so the
+resistance between the battery and the boost converter is quite low. It also automatically negotiates higher power USB
+charging.  Finally, it has significant internal monitoring, which eliminates the need for external components such as
+an ADC.</p>
+<p>The STM32F412 was selected as it has quite a few internal peripherals to choose from. It also has a built in RTC, which
+allows for maintaining time even between power cycles.</p>
+<p>In addition to the STM32, the footprint for an ATTiny85 was provided, but not populated, such that if anyone wants to
+use that series of MCU, they are able.</p>
+<h2 id="physical-form-factor">
+  Physical Form Factor
+  <a class="anchor" href="#physical-form-factor">#</a>
+</h2>
+<p>The Super Power RPi takes the shape of a Pi HAT PCB.  It is designed to be used as either a traditional HAT, or in an
+underslung configuration.</p>
+<p>The traditional HAT makes electrical connections using the 40-pin header and it is secured using the mounting holes at
+the 4 corners.</p>
+<p>The underslung configuration also uses the mounting holes, but makes the electrical connections using pogo-pins.  The
+pogo-pins connect to the 5V, GND, and I2C pins.  The standoffs to be used are ____mm tall.</p>
+<h2 id="use-cases">
+  Use Cases
+  <a class="anchor" href="#use-cases">#</a>
+</h2>
+<p>Generally speaking, any situation that needs a Raspberry Pi to operate on batteries can be a potential use-case for
+this design.</p>
+<p>More specifically, the following use cases were considered:</p>
+<ol>
+<li>Uninterruptable Power Supply (UPS).  In cases where there is a potential power interruption, the Superpower provides
+backup power so the Raspberry Pi does not have an unexpected restart.</li>
+<li>Portable Pi.  In cases where it is desirable to have a portable Pi or a Pi that will operate for extended periods of
+time using something other than &ldquo;commercial power mains&rdquo;, such as amateur radio Field Day competitions.  This can be used to provide a computer that meets this criteria.</li>
+</ol>
+<h2 id="potential-future-versions">
+  Potential future versions
+  <a class="anchor" href="#potential-future-versions">#</a>
+</h2>
+<ol>
+<li>Build a specific version that includes a solar MPPT IC.</li>
+</ol>
+<p><a href="https://github.com/SensorsIot/SuperPower/tree/master/SuperPower-RPi">github readme</a></p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#design">Design</a></li>
+    <li><a href="#physical-form-factor">Physical Form Factor</a></li>
+    <li><a href="#use-cases">Use Cases</a></li>
+    <li><a href="#potential-future-versions">Potential future versions</a></li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

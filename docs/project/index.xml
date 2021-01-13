@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project on Super Power IoT</title>
+    <link>https://superpower.github.io/docs/project/</link>
+    <description>Recent content in Project on Super Power IoT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://superpower.github.io/docs/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guidelines</title>
+      <link>https://superpower.github.io/docs/project/guidelines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/project/guidelines/</guid>
+      <description>Guidelines#Good schematics show you the circuit. Bad schematics make you decipher them. Here you can find a bunch of guidelines we set up to get consistent schematics along the project.
+Schematics#Clean Text placement# After placing a symbol make sure the designator is close to the symbol and does not overlap other text or tracks Make some space and move parts if they are too close Do not place text verticaly  Layout flow# Logical flow from left to right Power connectioncs should go up to positive voltages and down to negative voltages Rotate common symbols the same way to find similarities faster in a schematics  Schematic Symbols# Show pins of an IC in a position relevant to their function, not how they happen to stick out of the chip.</description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>https://superpower.github.io/docs/project/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/project/license/</guid>
+      <description>CERN Open Hardware Licence Version 2 - Weakly Reciprocal
+Preamble
+CERN has developed this licence to promote collaboration among hardware designers and to provide a legal tool which supports the freedom to use, study, modify, share and distribute hardware designs and products based on those designs. Version 2 of the CERN Open Hardware Licence comes in three variants: CERN-OHL-P (permissive); and two reciprocal licences: this licence, CERN-OHL-W (weakly reciprocal) and CERN-OHL-S (strongly reciprocal).</description>
+    </item>
+    
+    <item>
+      <title>Doc How to</title>
+      <link>https://superpower.github.io/docs/project/howto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/project/howto/</guid>
+      <description>This documentation is created with hugo a static website generator
+install hugo#Installing hugo is quite simple, as it&amp;rsquo;s a standalone binary that can be downloaded and added to the system path
+ hugo getting-started : installing  clone this repo#Note the recusive clone to add the git submodules as well
+&amp;gt;git clone --recursive https://github.com/Informaticore/SuperPower&amp;gt;cd SuperPower&amp;gt;cd website_work_dir test locally#no generation is required to test locally, hugo takes care of generating and serving</description>
+    </item>
+    
+  </channel>
+</rss>
