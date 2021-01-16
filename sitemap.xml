@@ -7,15 +7,15 @@
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/uc/original/</loc>
-  </url>
-  
-  <url>
     <loc>https://superpower.github.io/docs/rpi/overview/</loc>
   </url>
   
   <url>
     <loc>https://superpower.github.io/docs/project/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/uc/requirements/</loc>
   </url>
   
   <url>
@@ -39,7 +39,11 @@
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/uc/lowcost/</loc>
+    <loc>https://superpower.github.io/docs/uc/workflow/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/uc/diagrams/</loc>
   </url>
   
   <url>
@@ -47,19 +51,15 @@
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/uc/requirements/</loc>
-  </url>
-  
-  <url>
     <loc>https://superpower.github.io/docs/project/howto/</loc>
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/uc/workflow/</loc>
+    <loc>https://superpower.github.io/docs/uc/original/</loc>
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/uc/diagrams/</loc>
+    <loc>https://superpower.github.io/docs/uc/lowcost/</loc>
   </url>
   
   <url>
