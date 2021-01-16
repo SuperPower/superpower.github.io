@@ -5,9 +5,9 @@
   <meta name="generator" content="Hugo 0.79.1" />
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Use &ldquo;shift &#43; mouse wheel&rdquo; to zoom without moving the pageTop View#Full screenRaw SVG in a new pagefunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 3,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-b64f3224e691b250&#39; ,params);window[&#34;svg_b64f3224e691b250&#34;] = svg_pzlet button = document.">
+<meta name="description" content="Use &ldquo;shift &#43; mouse wheel&rdquo; to zoom without moving the pageTop View#Full screenRaw SVG in a new pagefunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-b64f3224e691b250&#39; ,params);window[&#34;svg_b64f3224e691b250&#34;] = svg_pzlet button = document.">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Schematics" />
-<meta property="og:description" content="Use &ldquo;shift &#43; mouse wheel&rdquo; to zoom without moving the pageTop View#Full screenRaw SVG in a new pagefunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 3,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-b64f3224e691b250&#39; ,params);window[&#34;svg_b64f3224e691b250&#34;] = svg_pzlet button = document." />
+<meta property="og:description" content="Use &ldquo;shift &#43; mouse wheel&rdquo; to zoom without moving the pageTop View#Full screenRaw SVG in a new pagefunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-b64f3224e691b250&#39; ,params);window[&#34;svg_b64f3224e691b250&#34;] = svg_pzlet button = document." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://superpower.github.io/docs/uc/lowcost/schematics/" />
 
@@ -15,7 +15,7 @@
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.0f40b4e83b0db00d11c595295e7f5f85f51436d20a5b6790534cb30c9f46a201.css" integrity="sha256-D0C06DsNsA0RxZUpXn9fhfUUNtIKW2eQU0yzDJ9GogE=">
-<script defer src="/en.search.min.8d080f0dc70a84f1ae7454257eaa92a5e936dd2eae5a622477f23816e04eb747.js" integrity="sha256-jQgPDccKhPGudFQlfqqSpek23S6uWmIkd/I4FuBOt0c="></script>
+<script defer src="/en.search.min.62c8999137b6c6ec605bd6f4483f9136df1ca8e17383d1ec0c13e23981d5f1ee.js" integrity="sha256-YsiZkTe2xuxgW9b0SD&#43;RNt8cqOFzg9HsDBPiOYHV8e4="></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -67,7 +67,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <span>Project</span>
+    <span>PROJECT</span>
   
 
           
@@ -106,7 +106,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://superpower.github.io/docs/project/howto/" class="">Doc How to</a>
+    <a href="https://superpower.github.io/docs/project/howto/" class="">This Website How to</a>
   
 
         </li>
@@ -369,6 +369,8 @@ https://github.com/alex-shpak/hugo-book
 </div>
 <embed id="svg-b64f3224e691b250" type="image/svg+xml" width=100% src="/lowcost/schematics/main.svg" style="background-color: #FFFFFF"/>
 <script>
+  
+  
   function setup_svg_panzoom(){
     let params = {
           panEnabled: true,
@@ -379,7 +381,7 @@ https://github.com/alex-shpak/hugo-book
           preventMouseEventsDefault: true,
           zoomScaleSensitivity: 0.6,
           minZoom: 0.5,
-          maxZoom: 3,
+          maxZoom: 4,
            fit: true
           , contain: true
           , center: true
@@ -387,6 +389,7 @@ https://github.com/alex-shpak/hugo-book
       };
       let svg_pz = svgPanZoom('#svg-b64f3224e691b250'        ,params);
       window["svg_b64f3224e691b250"] = svg_pz
+
       let button = document.getElementById("btn-b64f3224e691b250");
       button.onclick = ()=>{
           var elem = document.getElementById("svg-b64f3224e691b250");
@@ -406,7 +409,8 @@ https://github.com/alex-shpak/hugo-book
   }
   document.getElementById('svg-b64f3224e691b250').addEventListener('load', setup_svg_panzoom)
   window.addEventListener('resize', reset_position)
-</script>
+
+ </script>
 
 <h2 id="charging-module">
   Charging Module
@@ -424,6 +428,8 @@ https://github.com/alex-shpak/hugo-book
 </div>
 <embed id="svg-fc8a8a47887a66c4" type="image/svg+xml" width=100% src="/lowcost/schematics/charger.svg" style="background-color: #FFFFFF"/>
 <script>
+  
+  
   function setup_svg_panzoom(){
     let params = {
           panEnabled: true,
@@ -434,7 +440,7 @@ https://github.com/alex-shpak/hugo-book
           preventMouseEventsDefault: true,
           zoomScaleSensitivity: 0.6,
           minZoom: 0.5,
-          maxZoom: 3,
+          maxZoom: 4,
            fit: true
           , contain: true
           , center: true
@@ -442,6 +448,7 @@ https://github.com/alex-shpak/hugo-book
       };
       let svg_pz = svgPanZoom('#svg-fc8a8a47887a66c4'        ,params);
       window["svg_fc8a8a47887a66c4"] = svg_pz
+
       let button = document.getElementById("btn-fc8a8a47887a66c4");
       button.onclick = ()=>{
           var elem = document.getElementById("svg-fc8a8a47887a66c4");
@@ -461,7 +468,8 @@ https://github.com/alex-shpak/hugo-book
   }
   document.getElementById('svg-fc8a8a47887a66c4').addEventListener('load', setup_svg_panzoom)
   window.addEventListener('resize', reset_position)
-</script>
+
+ </script>
 
 <h2 id="charger-io">
   Charger IO
@@ -479,6 +487,8 @@ https://github.com/alex-shpak/hugo-book
 </div>
 <embed id="svg-6160f315b2967646" type="image/svg+xml" width=100% src="/lowcost/schematics/charger_io.svg" style="background-color: #FFFFFF"/>
 <script>
+  
+  
   function setup_svg_panzoom(){
     let params = {
           panEnabled: true,
@@ -489,7 +499,7 @@ https://github.com/alex-shpak/hugo-book
           preventMouseEventsDefault: true,
           zoomScaleSensitivity: 0.6,
           minZoom: 0.5,
-          maxZoom: 3,
+          maxZoom: 4,
            fit: true
           , contain: true
           , center: true
@@ -497,6 +507,7 @@ https://github.com/alex-shpak/hugo-book
       };
       let svg_pz = svgPanZoom('#svg-6160f315b2967646'        ,params);
       window["svg_6160f315b2967646"] = svg_pz
+
       let button = document.getElementById("btn-6160f315b2967646");
       button.onclick = ()=>{
           var elem = document.getElementById("svg-6160f315b2967646");
@@ -516,7 +527,8 @@ https://github.com/alex-shpak/hugo-book
   }
   document.getElementById('svg-6160f315b2967646').addEventListener('load', setup_svg_panzoom)
   window.addEventListener('resize', reset_position)
-</script>
+
+ </script>
 
 <h2 id="rtc-cut-off">
   RTC cut-off
@@ -534,6 +546,8 @@ https://github.com/alex-shpak/hugo-book
 </div>
 <embed id="svg-a62ea9a722419bf2" type="image/svg+xml" width=100% src="/lowcost/schematics/rtc_cut_off.svg" style="background-color: #FFFFFF"/>
 <script>
+  
+  
   function setup_svg_panzoom(){
     let params = {
           panEnabled: true,
@@ -544,7 +558,7 @@ https://github.com/alex-shpak/hugo-book
           preventMouseEventsDefault: true,
           zoomScaleSensitivity: 0.6,
           minZoom: 0.5,
-          maxZoom: 3,
+          maxZoom: 4,
            fit: true
           , contain: true
           , center: true
@@ -552,6 +566,7 @@ https://github.com/alex-shpak/hugo-book
       };
       let svg_pz = svgPanZoom('#svg-a62ea9a722419bf2'        ,params);
       window["svg_a62ea9a722419bf2"] = svg_pz
+
       let button = document.getElementById("btn-a62ea9a722419bf2");
       button.onclick = ()=>{
           var elem = document.getElementById("svg-a62ea9a722419bf2");
@@ -571,7 +586,8 @@ https://github.com/alex-shpak/hugo-book
   }
   document.getElementById('svg-a62ea9a722419bf2').addEventListener('load', setup_svg_panzoom)
   window.addEventListener('resize', reset_position)
-</script>
+
+ </script>
 
 <h2 id="regulator">
   Regulator
@@ -589,6 +605,8 @@ https://github.com/alex-shpak/hugo-book
 </div>
 <embed id="svg-96ba3ff09f0f5885" type="image/svg+xml" width=100% src="/lowcost/schematics/regulator.svg" style="background-color: #FFFFFF"/>
 <script>
+  
+  
   function setup_svg_panzoom(){
     let params = {
           panEnabled: true,
@@ -599,7 +617,7 @@ https://github.com/alex-shpak/hugo-book
           preventMouseEventsDefault: true,
           zoomScaleSensitivity: 0.6,
           minZoom: 0.5,
-          maxZoom: 3,
+          maxZoom: 4,
            fit: true
           , contain: true
           , center: true
@@ -607,6 +625,7 @@ https://github.com/alex-shpak/hugo-book
       };
       let svg_pz = svgPanZoom('#svg-96ba3ff09f0f5885'        ,params);
       window["svg_96ba3ff09f0f5885"] = svg_pz
+
       let button = document.getElementById("btn-96ba3ff09f0f5885");
       button.onclick = ()=>{
           var elem = document.getElementById("svg-96ba3ff09f0f5885");
@@ -626,7 +645,8 @@ https://github.com/alex-shpak/hugo-book
   }
   document.getElementById('svg-96ba3ff09f0f5885').addEventListener('load', setup_svg_panzoom)
   window.addEventListener('resize', reset_position)
-</script>
+
+ </script>
 
 <h2 id="battery-and-protection">
   Battery and Protection
@@ -644,6 +664,8 @@ https://github.com/alex-shpak/hugo-book
 </div>
 <embed id="svg-811e8228e4bb0f0b" type="image/svg+xml" width=100% src="/lowcost/schematics/battery_protection.svg" style="background-color: #FFFFFF"/>
 <script>
+  
+  
   function setup_svg_panzoom(){
     let params = {
           panEnabled: true,
@@ -654,7 +676,7 @@ https://github.com/alex-shpak/hugo-book
           preventMouseEventsDefault: true,
           zoomScaleSensitivity: 0.6,
           minZoom: 0.5,
-          maxZoom: 3,
+          maxZoom: 4,
            fit: true
           , contain: true
           , center: true
@@ -662,6 +684,7 @@ https://github.com/alex-shpak/hugo-book
       };
       let svg_pz = svgPanZoom('#svg-811e8228e4bb0f0b'        ,params);
       window["svg_811e8228e4bb0f0b"] = svg_pz
+
       let button = document.getElementById("btn-811e8228e4bb0f0b");
       button.onclick = ()=>{
           var elem = document.getElementById("svg-811e8228e4bb0f0b");
@@ -681,7 +704,8 @@ https://github.com/alex-shpak/hugo-book
   }
   document.getElementById('svg-811e8228e4bb0f0b').addEventListener('load', setup_svg_panzoom)
   window.addEventListener('resize', reset_position)
-</script>
+
+ </script>
 
 <h2 id="mcu">
   MCU
@@ -699,6 +723,8 @@ https://github.com/alex-shpak/hugo-book
 </div>
 <embed id="svg-bdda415da16ddf61" type="image/svg+xml" width=100% src="/lowcost/schematics/mcu.svg" style="background-color: #FFFFFF"/>
 <script>
+  
+  
   function setup_svg_panzoom(){
     let params = {
           panEnabled: true,
@@ -709,7 +735,7 @@ https://github.com/alex-shpak/hugo-book
           preventMouseEventsDefault: true,
           zoomScaleSensitivity: 0.6,
           minZoom: 0.5,
-          maxZoom: 3,
+          maxZoom: 4,
            fit: true
           , contain: true
           , center: true
@@ -717,6 +743,7 @@ https://github.com/alex-shpak/hugo-book
       };
       let svg_pz = svgPanZoom('#svg-bdda415da16ddf61'        ,params);
       window["svg_bdda415da16ddf61"] = svg_pz
+
       let button = document.getElementById("btn-bdda415da16ddf61");
       button.onclick = ()=>{
           var elem = document.getElementById("svg-bdda415da16ddf61");
@@ -736,7 +763,8 @@ https://github.com/alex-shpak/hugo-book
   }
   document.getElementById('svg-bdda415da16ddf61').addEventListener('load', setup_svg_panzoom)
   window.addEventListener('resize', reset_position)
-</script>
+
+ </script>
 
 </article>
  

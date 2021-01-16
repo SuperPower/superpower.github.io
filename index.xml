@@ -34,7 +34,7 @@ Design#The design is based on the bq25895 charger IC and the TPS61088 boost c
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://superpower.github.io/docs/uc/lowcost/schematics/</guid>
-      <description>Use &amp;ldquo;shift + mouse wheel&amp;rdquo; to zoom without moving the pageTop View#Full screenRaw SVG in a new pagefunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 3,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-b64f3224e691b250&#39; ,params);window[&#34;svg_b64f3224e691b250&#34;] = svg_pzlet button = document.</description>
+      <description>Use &amp;ldquo;shift + mouse wheel&amp;rdquo; to zoom without moving the pageTop View#Full screenRaw SVG in a new pagefunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-b64f3224e691b250&#39; ,params);window[&#34;svg_b64f3224e691b250&#34;] = svg_pzlet button = document.</description>
     </item>
     
     <item>
@@ -43,7 +43,7 @@ Design#The design is based on the bq25895 charger IC and the TPS61088 boost c
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://superpower.github.io/docs/uc/original/schematics/</guid>
-      <description>Use &amp;ldquo;shift + mouse wheel&amp;rdquo; to zoom without moving the pageTop View#Full screenRaw SVG in a new pagefunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 3,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-df080510d1ba4dd6&#39; ,params);window[&#34;svg_df080510d1ba4dd6&#34;] = svg_pzlet button = document.</description>
+      <description>Top View#Full screenRaw SVG in a new pagefunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-df080510d1ba4dd6&#39; ,params);window[&#34;svg_df080510d1ba4dd6&#34;] = svg_pzlet button = document.getElementById(&#34;btn-df080510d1ba4dd6&#34;);button.onclick = ()={var elem = document.getElementById(&#34;svg-df080510d1ba4dd6&#34;);if (elem.</description>
     </item>
     
     <item>
@@ -67,7 +67,16 @@ CERN has developed this licence to promote collaboration among hardware designer
     </item>
     
     <item>
-      <title>Doc How to</title>
+      <title>Requirements</title>
+      <link>https://superpower.github.io/docs/uc/requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/uc/requirements/</guid>
+      <description>Requirements#Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-c1faa48d69c2c798&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-c1faa48d69c2c798&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
+    </item>
+    
+    <item>
+      <title>This Website How to</title>
       <link>https://superpower.github.io/docs/project/howto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -76,15 +85,6 @@ CERN has developed this licence to promote collaboration among hardware designer
 install hugo#Installing hugo is quite simple, as it&amp;rsquo;s a standalone binary that can be downloaded and added to the system path
  hugo getting-started : installing  clone this repo#Note the recusive clone to add the git submodules as well
 &amp;gt;git clone --recursive https://github.com/Informaticore/SuperPower&amp;gt;cd SuperPower&amp;gt;cd website_work_dir test locally#no generation is required to test locally, hugo takes care of generating and serving</description>
-    </item>
-    
-    <item>
-      <title>Requirements</title>
-      <link>https://superpower.github.io/docs/uc/requirements/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://superpower.github.io/docs/uc/requirements/</guid>
-      <description>Requirements#Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-c1faa48d69c2c798&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-c1faa48d69c2c798&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
     </item>
     
     <item>
