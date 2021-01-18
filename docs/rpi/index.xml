@@ -21,7 +21,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://superpower.github.io/docs/rpi/schematics/</guid>
-      <description>Top View#Full screenRaw SVG in a new pagefunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-ab7eb4abeb0393b5&#39; ,params);window[&#34;svg_ab7eb4abeb0393b5&#34;] = svg_pzlet button = document.getElementById(&#34;btn-ab7eb4abeb0393b5&#34;);button.onclick = ()={var elem = document.getElementById(&#34;svg-ab7eb4abeb0393b5&#34;);if (elem.</description>
+      <description>schematics commit linkTop View#Full screenRaw SVG in a new pagefunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-ab7eb4abeb0393b5&#39; ,params);window[&#34;svg_ab7eb4abeb0393b5&#34;] = svg_pzlet button = document.getElementById(&#34;btn-ab7eb4abeb0393b5&#34;);button.</description>
     </item>
     
     <item>
