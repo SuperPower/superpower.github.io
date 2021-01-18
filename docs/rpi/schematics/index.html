@@ -5,11 +5,11 @@
   <meta name="generator" content="Hugo 0.79.1" />
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Top View#Full screenRaw SVG in a new pagefunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-df080510d1ba4dd6&#39; ,params);window[&#34;svg_df080510d1ba4dd6&#34;] = svg_pzlet button = document.getElementById(&#34;btn-df080510d1ba4dd6&#34;);button.onclick = ()={var elem = document.getElementById(&#34;svg-df080510d1ba4dd6&#34;);if (elem.">
+<meta name="description" content="Top View#Full screenRaw SVG in a new pagefunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-ab7eb4abeb0393b5&#39; ,params);window[&#34;svg_ab7eb4abeb0393b5&#34;] = svg_pzlet button = document.getElementById(&#34;btn-ab7eb4abeb0393b5&#34;);button.onclick = ()={var elem = document.getElementById(&#34;svg-ab7eb4abeb0393b5&#34;);if (elem.">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Schematics" />
-<meta property="og:description" content="Top View#Full screenRaw SVG in a new pagefunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-df080510d1ba4dd6&#39; ,params);window[&#34;svg_df080510d1ba4dd6&#34;] = svg_pzlet button = document.getElementById(&#34;btn-df080510d1ba4dd6&#34;);button.onclick = ()={var elem = document.getElementById(&#34;svg-df080510d1ba4dd6&#34;);if (elem." />
+<meta property="og:description" content="Top View#Full screenRaw SVG in a new pagefunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-ab7eb4abeb0393b5&#39; ,params);window[&#34;svg_ab7eb4abeb0393b5&#34;] = svg_pzlet button = document.getElementById(&#34;btn-ab7eb4abeb0393b5&#34;);button.onclick = ()={var elem = document.getElementById(&#34;svg-ab7eb4abeb0393b5&#34;);if (elem." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://superpower.github.io/docs/uc/original/schematics/" />
+<meta property="og:url" content="https://superpower.github.io/docs/rpi/schematics/" />
 
 <title>Schematics | Super Power IoT</title>
 <link rel="manifest" href="/manifest.json">
@@ -192,7 +192,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://superpower.github.io/docs/uc/original/schematics/" class=" active">Schematics</a>
+    <a href="https://superpower.github.io/docs/uc/original/schematics/" class="">Schematics</a>
   
 
         </li>
@@ -287,7 +287,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://superpower.github.io/docs/rpi/schematics/" class="">Schematics</a>
+    <a href="https://superpower.github.io/docs/rpi/schematics/" class=" active">Schematics</a>
   
 
         </li>
@@ -400,12 +400,13 @@ https://github.com/alex-shpak/hugo-book
   <nav id="TableOfContents">
   <ul>
     <li><a href="#top-view">Top View</a></li>
-    <li><a href="#charging-module">Charging Module</a></li>
-    <li><a href="#charger-io">Charger IO</a></li>
-    <li><a href="#rtc-cut-off">RTC cut-off</a></li>
-    <li><a href="#regulator">Regulator</a></li>
-    <li><a href="#battery-and-protection">Battery and Protection</a></li>
     <li><a href="#mcu">MCU</a></li>
+    <li><a href="#input-source">Input Source</a></li>
+    <li><a href="#charger">Charger</a></li>
+    <li><a href="#boost-converter">Boost converter</a></li>
+    <li><a href="#output-protection">Output protection</a></li>
+    <li><a href="#connection">Connection</a></li>
+    <li><a href="#battery">Battery</a></li>
   </ul>
 </nav>
 
@@ -427,11 +428,11 @@ https://github.com/alex-shpak/hugo-book
 <div class="container">
   <div class="row">
       <div class="col text-center">
-          <a id="btn-df080510d1ba4dd6" class="book-btn" role="button" >Full screen</a>
-          <a class="book-btn" href="/original/schematics/main.svg" role="button" target="_blank">Raw SVG in a new page</a>
+          <a id="btn-ab7eb4abeb0393b5" class="book-btn" role="button" >Full screen</a>
+          <a class="book-btn" href="/rpi/schematics/SuperPower-RPi-KiCAD.svg" role="button" target="_blank">Raw SVG in a new page</a>
       </div>
 </div>
-<embed id="svg-df080510d1ba4dd6" type="image/svg+xml" width=100% src="/original/schematics/main.svg" style="background-color: #FFFFFF"/>
+<embed id="svg-ab7eb4abeb0393b5" type="image/svg+xml" width=100% src="/rpi/schematics/SuperPower-RPi-KiCAD.svg" style="background-color: #FFFFFF"/>
 <script>
   
   
@@ -451,12 +452,12 @@ https://github.com/alex-shpak/hugo-book
           , center: true
           , refreshRate: 'auto'
       };
-      let svg_pz = svgPanZoom('#svg-df080510d1ba4dd6'        ,params);
-      window["svg_df080510d1ba4dd6"] = svg_pz
+      let svg_pz = svgPanZoom('#svg-ab7eb4abeb0393b5'        ,params);
+      window["svg_ab7eb4abeb0393b5"] = svg_pz
 
-      let button = document.getElementById("btn-df080510d1ba4dd6");
+      let button = document.getElementById("btn-ab7eb4abeb0393b5");
       button.onclick = ()=>{
-          var elem = document.getElementById("svg-df080510d1ba4dd6");
+          var elem = document.getElementById("svg-ab7eb4abeb0393b5");
           if (elem.requestFullscreen) {
           elem.requestFullscreen();
           } else if (elem.webkitRequestFullscreen) {  
@@ -467,306 +468,11 @@ https://github.com/alex-shpak/hugo-book
       };
   }
   function reset_position(){
-    window["svg_df080510d1ba4dd6"].resize()
-    window["svg_df080510d1ba4dd6"].fit()
-    window["svg_df080510d1ba4dd6"].center()
+    window["svg_ab7eb4abeb0393b5"].resize()
+    window["svg_ab7eb4abeb0393b5"].fit()
+    window["svg_ab7eb4abeb0393b5"].center()
   }
-  document.getElementById('svg-df080510d1ba4dd6').addEventListener('load', setup_svg_panzoom)
-  window.addEventListener('resize', reset_position)
-
- </script>
-
-<h2 id="charging-module">
-  Charging Module
-  <a class="anchor" href="#charging-module">#</a>
-</h2>
-
-
-
-<div class="container">
-  <div class="row">
-      <div class="col text-center">
-          <a id="btn-bdbe967fd58d9cab" class="book-btn" role="button" >Full screen</a>
-          <a class="book-btn" href="/original/schematics/charger.svg" role="button" target="_blank">Raw SVG in a new page</a>
-      </div>
-</div>
-<embed id="svg-bdbe967fd58d9cab" type="image/svg+xml" width=100% src="/original/schematics/charger.svg" style="background-color: #FFFFFF"/>
-<script>
-  
-  
-  function setup_svg_panzoom(){
-    let params = {
-          panEnabled: true,
-          zoomEnabled: true,
-          dblClickZoomEnabled: true,
-          controlIconsEnabled: false,
-          mouseWheelZoomEnabled: true,
-          preventMouseEventsDefault: true,
-          zoomScaleSensitivity: 0.6,
-          minZoom: 0.5,
-          maxZoom: 4,
-           fit: true
-          , contain: true
-          , center: true
-          , refreshRate: 'auto'
-      };
-      let svg_pz = svgPanZoom('#svg-bdbe967fd58d9cab'        ,params);
-      window["svg_bdbe967fd58d9cab"] = svg_pz
-
-      let button = document.getElementById("btn-bdbe967fd58d9cab");
-      button.onclick = ()=>{
-          var elem = document.getElementById("svg-bdbe967fd58d9cab");
-          if (elem.requestFullscreen) {
-          elem.requestFullscreen();
-          } else if (elem.webkitRequestFullscreen) {  
-          elem.webkitRequestFullscreen();
-          } else if (elem.msRequestFullscreen) {  
-          elem.msRequestFullscreen();
-          }
-      };
-  }
-  function reset_position(){
-    window["svg_bdbe967fd58d9cab"].resize()
-    window["svg_bdbe967fd58d9cab"].fit()
-    window["svg_bdbe967fd58d9cab"].center()
-  }
-  document.getElementById('svg-bdbe967fd58d9cab').addEventListener('load', setup_svg_panzoom)
-  window.addEventListener('resize', reset_position)
-
- </script>
-
-<h2 id="charger-io">
-  Charger IO
-  <a class="anchor" href="#charger-io">#</a>
-</h2>
-
-
-
-<div class="container">
-  <div class="row">
-      <div class="col text-center">
-          <a id="btn-6fe431c004edac28" class="book-btn" role="button" >Full screen</a>
-          <a class="book-btn" href="/original/schematics/charger_io.svg" role="button" target="_blank">Raw SVG in a new page</a>
-      </div>
-</div>
-<embed id="svg-6fe431c004edac28" type="image/svg+xml" width=100% src="/original/schematics/charger_io.svg" style="background-color: #FFFFFF"/>
-<script>
-  
-  
-  function setup_svg_panzoom(){
-    let params = {
-          panEnabled: true,
-          zoomEnabled: true,
-          dblClickZoomEnabled: true,
-          controlIconsEnabled: false,
-          mouseWheelZoomEnabled: true,
-          preventMouseEventsDefault: true,
-          zoomScaleSensitivity: 0.6,
-          minZoom: 0.5,
-          maxZoom: 4,
-           fit: true
-          , contain: true
-          , center: true
-          , refreshRate: 'auto'
-      };
-      let svg_pz = svgPanZoom('#svg-6fe431c004edac28'        ,params);
-      window["svg_6fe431c004edac28"] = svg_pz
-
-      let button = document.getElementById("btn-6fe431c004edac28");
-      button.onclick = ()=>{
-          var elem = document.getElementById("svg-6fe431c004edac28");
-          if (elem.requestFullscreen) {
-          elem.requestFullscreen();
-          } else if (elem.webkitRequestFullscreen) {  
-          elem.webkitRequestFullscreen();
-          } else if (elem.msRequestFullscreen) {  
-          elem.msRequestFullscreen();
-          }
-      };
-  }
-  function reset_position(){
-    window["svg_6fe431c004edac28"].resize()
-    window["svg_6fe431c004edac28"].fit()
-    window["svg_6fe431c004edac28"].center()
-  }
-  document.getElementById('svg-6fe431c004edac28').addEventListener('load', setup_svg_panzoom)
-  window.addEventListener('resize', reset_position)
-
- </script>
-
-<h2 id="rtc-cut-off">
-  RTC cut-off
-  <a class="anchor" href="#rtc-cut-off">#</a>
-</h2>
-
-
-
-<div class="container">
-  <div class="row">
-      <div class="col text-center">
-          <a id="btn-6fb0d40f7ebad6e6" class="book-btn" role="button" >Full screen</a>
-          <a class="book-btn" href="/original/schematics/rtc_cut_off.svg" role="button" target="_blank">Raw SVG in a new page</a>
-      </div>
-</div>
-<embed id="svg-6fb0d40f7ebad6e6" type="image/svg+xml" width=100% src="/original/schematics/rtc_cut_off.svg" style="background-color: #FFFFFF"/>
-<script>
-  
-  
-  function setup_svg_panzoom(){
-    let params = {
-          panEnabled: true,
-          zoomEnabled: true,
-          dblClickZoomEnabled: true,
-          controlIconsEnabled: false,
-          mouseWheelZoomEnabled: true,
-          preventMouseEventsDefault: true,
-          zoomScaleSensitivity: 0.6,
-          minZoom: 0.5,
-          maxZoom: 4,
-           fit: true
-          , contain: true
-          , center: true
-          , refreshRate: 'auto'
-      };
-      let svg_pz = svgPanZoom('#svg-6fb0d40f7ebad6e6'        ,params);
-      window["svg_6fb0d40f7ebad6e6"] = svg_pz
-
-      let button = document.getElementById("btn-6fb0d40f7ebad6e6");
-      button.onclick = ()=>{
-          var elem = document.getElementById("svg-6fb0d40f7ebad6e6");
-          if (elem.requestFullscreen) {
-          elem.requestFullscreen();
-          } else if (elem.webkitRequestFullscreen) {  
-          elem.webkitRequestFullscreen();
-          } else if (elem.msRequestFullscreen) {  
-          elem.msRequestFullscreen();
-          }
-      };
-  }
-  function reset_position(){
-    window["svg_6fb0d40f7ebad6e6"].resize()
-    window["svg_6fb0d40f7ebad6e6"].fit()
-    window["svg_6fb0d40f7ebad6e6"].center()
-  }
-  document.getElementById('svg-6fb0d40f7ebad6e6').addEventListener('load', setup_svg_panzoom)
-  window.addEventListener('resize', reset_position)
-
- </script>
-
-<h2 id="regulator">
-  Regulator
-  <a class="anchor" href="#regulator">#</a>
-</h2>
-
-
-
-<div class="container">
-  <div class="row">
-      <div class="col text-center">
-          <a id="btn-b3a1dac00f5f4f9d" class="book-btn" role="button" >Full screen</a>
-          <a class="book-btn" href="/original/schematics/regulator.svg" role="button" target="_blank">Raw SVG in a new page</a>
-      </div>
-</div>
-<embed id="svg-b3a1dac00f5f4f9d" type="image/svg+xml" width=100% src="/original/schematics/regulator.svg" style="background-color: #FFFFFF"/>
-<script>
-  
-  
-  function setup_svg_panzoom(){
-    let params = {
-          panEnabled: true,
-          zoomEnabled: true,
-          dblClickZoomEnabled: true,
-          controlIconsEnabled: false,
-          mouseWheelZoomEnabled: true,
-          preventMouseEventsDefault: true,
-          zoomScaleSensitivity: 0.6,
-          minZoom: 0.5,
-          maxZoom: 4,
-           fit: true
-          , contain: true
-          , center: true
-          , refreshRate: 'auto'
-      };
-      let svg_pz = svgPanZoom('#svg-b3a1dac00f5f4f9d'        ,params);
-      window["svg_b3a1dac00f5f4f9d"] = svg_pz
-
-      let button = document.getElementById("btn-b3a1dac00f5f4f9d");
-      button.onclick = ()=>{
-          var elem = document.getElementById("svg-b3a1dac00f5f4f9d");
-          if (elem.requestFullscreen) {
-          elem.requestFullscreen();
-          } else if (elem.webkitRequestFullscreen) {  
-          elem.webkitRequestFullscreen();
-          } else if (elem.msRequestFullscreen) {  
-          elem.msRequestFullscreen();
-          }
-      };
-  }
-  function reset_position(){
-    window["svg_b3a1dac00f5f4f9d"].resize()
-    window["svg_b3a1dac00f5f4f9d"].fit()
-    window["svg_b3a1dac00f5f4f9d"].center()
-  }
-  document.getElementById('svg-b3a1dac00f5f4f9d').addEventListener('load', setup_svg_panzoom)
-  window.addEventListener('resize', reset_position)
-
- </script>
-
-<h2 id="battery-and-protection">
-  Battery and Protection
-  <a class="anchor" href="#battery-and-protection">#</a>
-</h2>
-
-
-
-<div class="container">
-  <div class="row">
-      <div class="col text-center">
-          <a id="btn-4114c290d383d316" class="book-btn" role="button" >Full screen</a>
-          <a class="book-btn" href="/original/schematics/battery_protection.svg" role="button" target="_blank">Raw SVG in a new page</a>
-      </div>
-</div>
-<embed id="svg-4114c290d383d316" type="image/svg+xml" width=100% src="/original/schematics/battery_protection.svg" style="background-color: #FFFFFF"/>
-<script>
-  
-  
-  function setup_svg_panzoom(){
-    let params = {
-          panEnabled: true,
-          zoomEnabled: true,
-          dblClickZoomEnabled: true,
-          controlIconsEnabled: false,
-          mouseWheelZoomEnabled: true,
-          preventMouseEventsDefault: true,
-          zoomScaleSensitivity: 0.6,
-          minZoom: 0.5,
-          maxZoom: 4,
-           fit: true
-          , contain: true
-          , center: true
-          , refreshRate: 'auto'
-      };
-      let svg_pz = svgPanZoom('#svg-4114c290d383d316'        ,params);
-      window["svg_4114c290d383d316"] = svg_pz
-
-      let button = document.getElementById("btn-4114c290d383d316");
-      button.onclick = ()=>{
-          var elem = document.getElementById("svg-4114c290d383d316");
-          if (elem.requestFullscreen) {
-          elem.requestFullscreen();
-          } else if (elem.webkitRequestFullscreen) {  
-          elem.webkitRequestFullscreen();
-          } else if (elem.msRequestFullscreen) {  
-          elem.msRequestFullscreen();
-          }
-      };
-  }
-  function reset_position(){
-    window["svg_4114c290d383d316"].resize()
-    window["svg_4114c290d383d316"].fit()
-    window["svg_4114c290d383d316"].center()
-  }
-  document.getElementById('svg-4114c290d383d316').addEventListener('load', setup_svg_panzoom)
+  document.getElementById('svg-ab7eb4abeb0393b5').addEventListener('load', setup_svg_panzoom)
   window.addEventListener('resize', reset_position)
 
  </script>
@@ -781,11 +487,11 @@ https://github.com/alex-shpak/hugo-book
 <div class="container">
   <div class="row">
       <div class="col text-center">
-          <a id="btn-a6ba02deb9756409" class="book-btn" role="button" >Full screen</a>
-          <a class="book-btn" href="/original/schematics/mcu.svg" role="button" target="_blank">Raw SVG in a new page</a>
+          <a id="btn-e4bec72a850fa84f" class="book-btn" role="button" >Full screen</a>
+          <a class="book-btn" href="/rpi/schematics/Pi-MCU-Pi-MCU.svg" role="button" target="_blank">Raw SVG in a new page</a>
       </div>
 </div>
-<embed id="svg-a6ba02deb9756409" type="image/svg+xml" width=100% src="/original/schematics/mcu.svg" style="background-color: #FFFFFF"/>
+<embed id="svg-e4bec72a850fa84f" type="image/svg+xml" width=100% src="/rpi/schematics/Pi-MCU-Pi-MCU.svg" style="background-color: #FFFFFF"/>
 <script>
   
   
@@ -805,12 +511,12 @@ https://github.com/alex-shpak/hugo-book
           , center: true
           , refreshRate: 'auto'
       };
-      let svg_pz = svgPanZoom('#svg-a6ba02deb9756409'        ,params);
-      window["svg_a6ba02deb9756409"] = svg_pz
+      let svg_pz = svgPanZoom('#svg-e4bec72a850fa84f'        ,params);
+      window["svg_e4bec72a850fa84f"] = svg_pz
 
-      let button = document.getElementById("btn-a6ba02deb9756409");
+      let button = document.getElementById("btn-e4bec72a850fa84f");
       button.onclick = ()=>{
-          var elem = document.getElementById("svg-a6ba02deb9756409");
+          var elem = document.getElementById("svg-e4bec72a850fa84f");
           if (elem.requestFullscreen) {
           elem.requestFullscreen();
           } else if (elem.webkitRequestFullscreen) {  
@@ -821,11 +527,365 @@ https://github.com/alex-shpak/hugo-book
       };
   }
   function reset_position(){
-    window["svg_a6ba02deb9756409"].resize()
-    window["svg_a6ba02deb9756409"].fit()
-    window["svg_a6ba02deb9756409"].center()
+    window["svg_e4bec72a850fa84f"].resize()
+    window["svg_e4bec72a850fa84f"].fit()
+    window["svg_e4bec72a850fa84f"].center()
   }
-  document.getElementById('svg-a6ba02deb9756409').addEventListener('load', setup_svg_panzoom)
+  document.getElementById('svg-e4bec72a850fa84f').addEventListener('load', setup_svg_panzoom)
+  window.addEventListener('resize', reset_position)
+
+ </script>
+
+<h2 id="input-source">
+  Input Source
+  <a class="anchor" href="#input-source">#</a>
+</h2>
+
+
+
+<div class="container">
+  <div class="row">
+      <div class="col text-center">
+          <a id="btn-63818215cf2ce3ad" class="book-btn" role="button" >Full screen</a>
+          <a class="book-btn" href="/rpi/schematics/Pi-Input-Source-Pi-Input-Source.svg" role="button" target="_blank">Raw SVG in a new page</a>
+      </div>
+</div>
+<embed id="svg-63818215cf2ce3ad" type="image/svg+xml" width=100% src="/rpi/schematics/Pi-Input-Source-Pi-Input-Source.svg" style="background-color: #FFFFFF"/>
+<script>
+  
+  
+  function setup_svg_panzoom(){
+    let params = {
+          panEnabled: true,
+          zoomEnabled: true,
+          dblClickZoomEnabled: true,
+          controlIconsEnabled: false,
+          mouseWheelZoomEnabled: true,
+          preventMouseEventsDefault: true,
+          zoomScaleSensitivity: 0.6,
+          minZoom: 0.5,
+          maxZoom: 4,
+           fit: true
+          , contain: true
+          , center: true
+          , refreshRate: 'auto'
+      };
+      let svg_pz = svgPanZoom('#svg-63818215cf2ce3ad'        ,params);
+      window["svg_63818215cf2ce3ad"] = svg_pz
+
+      let button = document.getElementById("btn-63818215cf2ce3ad");
+      button.onclick = ()=>{
+          var elem = document.getElementById("svg-63818215cf2ce3ad");
+          if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+          } else if (elem.webkitRequestFullscreen) {  
+          elem.webkitRequestFullscreen();
+          } else if (elem.msRequestFullscreen) {  
+          elem.msRequestFullscreen();
+          }
+      };
+  }
+  function reset_position(){
+    window["svg_63818215cf2ce3ad"].resize()
+    window["svg_63818215cf2ce3ad"].fit()
+    window["svg_63818215cf2ce3ad"].center()
+  }
+  document.getElementById('svg-63818215cf2ce3ad').addEventListener('load', setup_svg_panzoom)
+  window.addEventListener('resize', reset_position)
+
+ </script>
+
+<h2 id="charger">
+  Charger
+  <a class="anchor" href="#charger">#</a>
+</h2>
+
+
+
+<div class="container">
+  <div class="row">
+      <div class="col text-center">
+          <a id="btn-da1a14e5f209e953" class="book-btn" role="button" >Full screen</a>
+          <a class="book-btn" href="/rpi/schematics/Pi-Charger-Pi-Charger.svg" role="button" target="_blank">Raw SVG in a new page</a>
+      </div>
+</div>
+<embed id="svg-da1a14e5f209e953" type="image/svg+xml" width=100% src="/rpi/schematics/Pi-Charger-Pi-Charger.svg" style="background-color: #FFFFFF"/>
+<script>
+  
+  
+  function setup_svg_panzoom(){
+    let params = {
+          panEnabled: true,
+          zoomEnabled: true,
+          dblClickZoomEnabled: true,
+          controlIconsEnabled: false,
+          mouseWheelZoomEnabled: true,
+          preventMouseEventsDefault: true,
+          zoomScaleSensitivity: 0.6,
+          minZoom: 0.5,
+          maxZoom: 4,
+           fit: true
+          , contain: true
+          , center: true
+          , refreshRate: 'auto'
+      };
+      let svg_pz = svgPanZoom('#svg-da1a14e5f209e953'        ,params);
+      window["svg_da1a14e5f209e953"] = svg_pz
+
+      let button = document.getElementById("btn-da1a14e5f209e953");
+      button.onclick = ()=>{
+          var elem = document.getElementById("svg-da1a14e5f209e953");
+          if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+          } else if (elem.webkitRequestFullscreen) {  
+          elem.webkitRequestFullscreen();
+          } else if (elem.msRequestFullscreen) {  
+          elem.msRequestFullscreen();
+          }
+      };
+  }
+  function reset_position(){
+    window["svg_da1a14e5f209e953"].resize()
+    window["svg_da1a14e5f209e953"].fit()
+    window["svg_da1a14e5f209e953"].center()
+  }
+  document.getElementById('svg-da1a14e5f209e953').addEventListener('load', setup_svg_panzoom)
+  window.addEventListener('resize', reset_position)
+
+ </script>
+
+<h2 id="boost-converter">
+  Boost converter
+  <a class="anchor" href="#boost-converter">#</a>
+</h2>
+
+
+
+<div class="container">
+  <div class="row">
+      <div class="col text-center">
+          <a id="btn-7c6d8e0767a5978e" class="book-btn" role="button" >Full screen</a>
+          <a class="book-btn" href="/rpi/schematics/Pi-Boost-Conv-Pi-Boost-Conv.svg" role="button" target="_blank">Raw SVG in a new page</a>
+      </div>
+</div>
+<embed id="svg-7c6d8e0767a5978e" type="image/svg+xml" width=100% src="/rpi/schematics/Pi-Boost-Conv-Pi-Boost-Conv.svg" style="background-color: #FFFFFF"/>
+<script>
+  
+  
+  function setup_svg_panzoom(){
+    let params = {
+          panEnabled: true,
+          zoomEnabled: true,
+          dblClickZoomEnabled: true,
+          controlIconsEnabled: false,
+          mouseWheelZoomEnabled: true,
+          preventMouseEventsDefault: true,
+          zoomScaleSensitivity: 0.6,
+          minZoom: 0.5,
+          maxZoom: 4,
+           fit: true
+          , contain: true
+          , center: true
+          , refreshRate: 'auto'
+      };
+      let svg_pz = svgPanZoom('#svg-7c6d8e0767a5978e'        ,params);
+      window["svg_7c6d8e0767a5978e"] = svg_pz
+
+      let button = document.getElementById("btn-7c6d8e0767a5978e");
+      button.onclick = ()=>{
+          var elem = document.getElementById("svg-7c6d8e0767a5978e");
+          if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+          } else if (elem.webkitRequestFullscreen) {  
+          elem.webkitRequestFullscreen();
+          } else if (elem.msRequestFullscreen) {  
+          elem.msRequestFullscreen();
+          }
+      };
+  }
+  function reset_position(){
+    window["svg_7c6d8e0767a5978e"].resize()
+    window["svg_7c6d8e0767a5978e"].fit()
+    window["svg_7c6d8e0767a5978e"].center()
+  }
+  document.getElementById('svg-7c6d8e0767a5978e').addEventListener('load', setup_svg_panzoom)
+  window.addEventListener('resize', reset_position)
+
+ </script>
+
+<h2 id="output-protection">
+  Output protection
+  <a class="anchor" href="#output-protection">#</a>
+</h2>
+
+
+
+<div class="container">
+  <div class="row">
+      <div class="col text-center">
+          <a id="btn-a2a160683c6a1099" class="book-btn" role="button" >Full screen</a>
+          <a class="book-btn" href="/rpi/schematics/Pi-Output-Protection-Pi-Output-Protection.svg" role="button" target="_blank">Raw SVG in a new page</a>
+      </div>
+</div>
+<embed id="svg-a2a160683c6a1099" type="image/svg+xml" width=100% src="/rpi/schematics/Pi-Output-Protection-Pi-Output-Protection.svg" style="background-color: #FFFFFF"/>
+<script>
+  
+  
+  function setup_svg_panzoom(){
+    let params = {
+          panEnabled: true,
+          zoomEnabled: true,
+          dblClickZoomEnabled: true,
+          controlIconsEnabled: false,
+          mouseWheelZoomEnabled: true,
+          preventMouseEventsDefault: true,
+          zoomScaleSensitivity: 0.6,
+          minZoom: 0.5,
+          maxZoom: 4,
+           fit: true
+          , contain: true
+          , center: true
+          , refreshRate: 'auto'
+      };
+      let svg_pz = svgPanZoom('#svg-a2a160683c6a1099'        ,params);
+      window["svg_a2a160683c6a1099"] = svg_pz
+
+      let button = document.getElementById("btn-a2a160683c6a1099");
+      button.onclick = ()=>{
+          var elem = document.getElementById("svg-a2a160683c6a1099");
+          if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+          } else if (elem.webkitRequestFullscreen) {  
+          elem.webkitRequestFullscreen();
+          } else if (elem.msRequestFullscreen) {  
+          elem.msRequestFullscreen();
+          }
+      };
+  }
+  function reset_position(){
+    window["svg_a2a160683c6a1099"].resize()
+    window["svg_a2a160683c6a1099"].fit()
+    window["svg_a2a160683c6a1099"].center()
+  }
+  document.getElementById('svg-a2a160683c6a1099').addEventListener('load', setup_svg_panzoom)
+  window.addEventListener('resize', reset_position)
+
+ </script>
+
+<h2 id="connection">
+  Connection
+  <a class="anchor" href="#connection">#</a>
+</h2>
+
+
+
+<div class="container">
+  <div class="row">
+      <div class="col text-center">
+          <a id="btn-8a63653903bf43b4" class="book-btn" role="button" >Full screen</a>
+          <a class="book-btn" href="/rpi/schematics/Pi-Connection-Pi-Connection.svg" role="button" target="_blank">Raw SVG in a new page</a>
+      </div>
+</div>
+<embed id="svg-8a63653903bf43b4" type="image/svg+xml" width=100% src="/rpi/schematics/Pi-Connection-Pi-Connection.svg" style="background-color: #FFFFFF"/>
+<script>
+  
+  
+  function setup_svg_panzoom(){
+    let params = {
+          panEnabled: true,
+          zoomEnabled: true,
+          dblClickZoomEnabled: true,
+          controlIconsEnabled: false,
+          mouseWheelZoomEnabled: true,
+          preventMouseEventsDefault: true,
+          zoomScaleSensitivity: 0.6,
+          minZoom: 0.5,
+          maxZoom: 4,
+           fit: true
+          , contain: true
+          , center: true
+          , refreshRate: 'auto'
+      };
+      let svg_pz = svgPanZoom('#svg-8a63653903bf43b4'        ,params);
+      window["svg_8a63653903bf43b4"] = svg_pz
+
+      let button = document.getElementById("btn-8a63653903bf43b4");
+      button.onclick = ()=>{
+          var elem = document.getElementById("svg-8a63653903bf43b4");
+          if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+          } else if (elem.webkitRequestFullscreen) {  
+          elem.webkitRequestFullscreen();
+          } else if (elem.msRequestFullscreen) {  
+          elem.msRequestFullscreen();
+          }
+      };
+  }
+  function reset_position(){
+    window["svg_8a63653903bf43b4"].resize()
+    window["svg_8a63653903bf43b4"].fit()
+    window["svg_8a63653903bf43b4"].center()
+  }
+  document.getElementById('svg-8a63653903bf43b4').addEventListener('load', setup_svg_panzoom)
+  window.addEventListener('resize', reset_position)
+
+ </script>
+
+<h2 id="battery">
+  Battery
+  <a class="anchor" href="#battery">#</a>
+</h2>
+
+
+
+<div class="container">
+  <div class="row">
+      <div class="col text-center">
+          <a id="btn-01f1b12e1303a255" class="book-btn" role="button" >Full screen</a>
+          <a class="book-btn" href="/rpi/schematics/Pi-Batt-Pi-Batt.svg" role="button" target="_blank">Raw SVG in a new page</a>
+      </div>
+</div>
+<embed id="svg-01f1b12e1303a255" type="image/svg+xml" width=100% src="/rpi/schematics/Pi-Batt-Pi-Batt.svg" style="background-color: #FFFFFF"/>
+<script>
+  
+  
+  function setup_svg_panzoom(){
+    let params = {
+          panEnabled: true,
+          zoomEnabled: true,
+          dblClickZoomEnabled: true,
+          controlIconsEnabled: false,
+          mouseWheelZoomEnabled: true,
+          preventMouseEventsDefault: true,
+          zoomScaleSensitivity: 0.6,
+          minZoom: 0.5,
+          maxZoom: 4,
+           fit: true
+          , contain: true
+          , center: true
+          , refreshRate: 'auto'
+      };
+      let svg_pz = svgPanZoom('#svg-01f1b12e1303a255'        ,params);
+      window["svg_01f1b12e1303a255"] = svg_pz
+
+      let button = document.getElementById("btn-01f1b12e1303a255");
+      button.onclick = ()=>{
+          var elem = document.getElementById("svg-01f1b12e1303a255");
+          if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+          } else if (elem.webkitRequestFullscreen) {  
+          elem.webkitRequestFullscreen();
+          } else if (elem.msRequestFullscreen) {  
+          elem.msRequestFullscreen();
+          }
+      };
+  }
+  function reset_position(){
+    window["svg_01f1b12e1303a255"].resize()
+    window["svg_01f1b12e1303a255"].fit()
+    window["svg_01f1b12e1303a255"].center()
+  }
+  document.getElementById('svg-01f1b12e1303a255').addEventListener('load', setup_svg_panzoom)
   window.addEventListener('resize', reset_position)
 
  </script>
@@ -865,12 +925,13 @@ https://github.com/alex-shpak/hugo-book
   <nav id="TableOfContents">
   <ul>
     <li><a href="#top-view">Top View</a></li>
-    <li><a href="#charging-module">Charging Module</a></li>
-    <li><a href="#charger-io">Charger IO</a></li>
-    <li><a href="#rtc-cut-off">RTC cut-off</a></li>
-    <li><a href="#regulator">Regulator</a></li>
-    <li><a href="#battery-and-protection">Battery and Protection</a></li>
     <li><a href="#mcu">MCU</a></li>
+    <li><a href="#input-source">Input Source</a></li>
+    <li><a href="#charger">Charger</a></li>
+    <li><a href="#boost-converter">Boost converter</a></li>
+    <li><a href="#output-protection">Output protection</a></li>
+    <li><a href="#connection">Connection</a></li>
+    <li><a href="#battery">Battery</a></li>
   </ul>
 </nav>
 

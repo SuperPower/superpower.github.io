@@ -19,6 +19,10 @@
   </url>
   
   <url>
+    <loc>https://superpower.github.io/docs/rpi/schematics/</loc>
+  </url>
+  
+  <url>
     <loc>https://superpower.github.io/docs/uc/lowcost/schematics/</loc>
   </url>
   
@@ -39,7 +43,15 @@
   </url>
   
   <url>
+    <loc>https://superpower.github.io/docs/rpi/requirements/</loc>
+  </url>
+  
+  <url>
     <loc>https://superpower.github.io/docs/uc/workflow/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/rpi/developers/</loc>
   </url>
   
   <url>

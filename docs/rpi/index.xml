@@ -12,9 +12,35 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://superpower.github.io/docs/rpi/overview/</guid>
-      <description>This project is currently still under development.
-The Super Power RPi edition is a battery backup unit for the Raspberry Pi single board computer. It is meant to work with the Raspberry Pi 3 and 4.
-Design#The design is based on the bq25895 charger IC and the TPS61088 boost converter IC. It also integrates an STM32F412 microcontroller to provide timing and control independent of the Raspberry Pi.</description>
+      <description>This project is currently still under development.Block Diagram#reference design in gdriveFull screenRaw SVG in a new pagefunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-e11c136b1839544f&#39; ,params);window[&#34;</description>
+    </item>
+    
+    <item>
+      <title>Schematics</title>
+      <link>https://superpower.github.io/docs/rpi/schematics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/rpi/schematics/</guid>
+      <description>Top View#Full screenRaw SVG in a new pagefunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-ab7eb4abeb0393b5&#39; ,params);window[&#34;svg_ab7eb4abeb0393b5&#34;] = svg_pzlet button = document.getElementById(&#34;btn-ab7eb4abeb0393b5&#34;);button.onclick = ()={var elem = document.getElementById(&#34;svg-ab7eb4abeb0393b5&#34;);if (elem.</description>
+    </item>
+    
+    <item>
+      <title>Requirements</title>
+      <link>https://superpower.github.io/docs/rpi/requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/rpi/requirements/</guid>
+      <description>Requirements#Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-636e81262af8d0df&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-636e81262af8d0df&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
+    </item>
+    
+    <item>
+      <title>Developers Section</title>
+      <link>https://superpower.github.io/docs/rpi/developers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/rpi/developers/</guid>
+      <description>reference gdocDevelopers section#In this section you&amp;rsquo;ll find all the documentation for the project and also how you can customize the behavior of the board by implementing your custom functionality.
+Specifications#Hardware##TODO describe the main chips of the board Software#For the development of the code, FreeRTOS was used because it offers the ability to divide the code into modules (tasks).</description>
     </item>
     
   </channel>
