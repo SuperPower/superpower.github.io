@@ -23,7 +23,7 @@ Schematics#Clean Text placement# After placing a symbol make sure the desi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://superpower.github.io/docs/rpi/overview/</guid>
-      <description>This project is currently still under development.Block Diagram#reference design in gdriveFull screenRaw SVG in a new pagefunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-e11c136b1839544f&#39; ,params);window[&#34;</description>
+      <description>This project is currently still under development.Repositories#main publishing repoRPI Team working forkFirmware repoBlock Diagram#reference design in gdriveFull screenRaw SVG in a new pagefunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.</description>
     </item>
     
     <item>
@@ -106,8 +106,9 @@ CERN has developed this licence to promote collaboration among hardware designer
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://superpower.github.io/docs/rpi/developers/</guid>
-      <description>reference gdocDevelopers section#In this section you&amp;rsquo;ll find all the documentation for the project and also how you can customize the behavior of the board by implementing your custom functionality.
-Specifications#Hardware##TODO describe the main chips of the board Software#For the development of the code, FreeRTOS was used because it offers the ability to divide the code into modules (tasks).</description>
+      <description>Firmware repo - DevelopersDevelopers section#In this section you&amp;rsquo;ll find all the documentation of the project and also how you can customize the behavior of the board by implementing your custom functionality
+Specifications#Hardware##TODO describe the main chips of the board
+Software#For the development of the code FreeRTOS was used because it offers the ability to divide the code in modules (tasks) and with this when new functionality is added you only need to consider (for the most part) the requirements and timing of the new functionality and FreeRTOS will handle the timing and resources of the other tasks so everything runs as expected.</description>
     </item>
     
     <item>
