@@ -129,7 +129,7 @@ Software#For the development of the code FreeRTOS was used because it offers 
       <description>This documentation is created with hugo a static website generator
 install hugo#Installing hugo is quite simple, as it&amp;rsquo;s a standalone binary that can be downloaded and added to the system path
 hugo getting-started : installingclone this repo#Note the recusive clone to add the git submodules as well
-&amp;gt;git clone --recursive https://github.com/Informaticore/SuperPower&amp;gt;cd SuperPower&amp;gt;cd website_work_dir test locally#no generation is required to test locally, hugo takes care of generating and serving</description>
+&amp;gt;git clone --recursive https://github.com/SuperPower/hugo_website.git&amp;gt;cd hugo_website test locally#no generation is required to test locally, hugo takes care of generating and serving</description>
     </item>
     
   </channel>
