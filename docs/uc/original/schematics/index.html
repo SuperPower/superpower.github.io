@@ -5,9 +5,9 @@
   <meta name="generator" content="Hugo 0.79.1" />
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Top View#Full screenRaw SVG in a new pagefunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-df080510d1ba4dd6&#39; ,params);window[&#34;svg_df080510d1ba4dd6&#34;] = svg_pzlet button = document.getElementById(&#34;btn-df080510d1ba4dd6&#34;);button.onclick = ()={var elem = document.getElementById(&#34;svg-df080510d1ba4dd6&#34;);if (elem.">
+<meta name="description" content="Top View#Full Screenfunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-df080510d1ba4dd6&#39; ,params);window[&#34;svg_df080510d1ba4dd6&#34;] = svg_pzlet button = document.getElementById(&#34;btn-df080510d1ba4dd6&#34;);button.onclick = ()={var elem = document.getElementById(&#34;svg-df080510d1ba4dd6&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Schematics" />
-<meta property="og:description" content="Top View#Full screenRaw SVG in a new pagefunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-df080510d1ba4dd6&#39; ,params);window[&#34;svg_df080510d1ba4dd6&#34;] = svg_pzlet button = document.getElementById(&#34;btn-df080510d1ba4dd6&#34;);button.onclick = ()={var elem = document.getElementById(&#34;svg-df080510d1ba4dd6&#34;);if (elem." />
+<meta property="og:description" content="Top View#Full Screenfunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-df080510d1ba4dd6&#39; ,params);window[&#34;svg_df080510d1ba4dd6&#34;] = svg_pzlet button = document.getElementById(&#34;btn-df080510d1ba4dd6&#34;);button.onclick = ()={var elem = document.getElementById(&#34;svg-df080510d1ba4dd6&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://superpower.github.io/docs/uc/original/schematics/" />
 
@@ -15,7 +15,7 @@
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.0f40b4e83b0db00d11c595295e7f5f85f51436d20a5b6790534cb30c9f46a201.css" integrity="sha256-D0C06DsNsA0RxZUpXn9fhfUUNtIKW2eQU0yzDJ9GogE=">
-<script defer src="/en.search.min.03e22a5b53598e9e39aa362d9362dfd26022a8f1f9d3102177304364d75c33c6.js" integrity="sha256-A&#43;IqW1NZjp45qjYtk2Lf0mAiqPH50xAhdzBDZNdcM8Y="></script>
+<script defer src="/en.search.min.66d76e8478692a4514e42428b467edafe4d7b7554f56ec208555e8ebe9da1dcd.js" integrity="sha256-ZtduhHhpKkUU5CQotGftr&#43;TXt1VPVuwghVXo6&#43;naHc0="></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -378,7 +378,8 @@ https://github.com/alex-shpak/hugo-book
     <div class="book-page">
       <header class="book-header">
         
-  <script src="/js/svg-pan-zoom.min.js"></script>
+  <script src="/js/stl_viewer/stl_viewer.min.js"></script>
+<script src="/js/svg-pan-zoom.min.js"></script>
 <div class="flex align-center justify-between">
   <label for="menu-control">
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
@@ -427,14 +428,11 @@ https://github.com/alex-shpak/hugo-book
 <div class="container">
   <div class="row">
       <div class="col text-center">
-          <a id="btn-df080510d1ba4dd6" class="book-btn" role="button" >Full screen</a>
-          <a class="book-btn" href="/original/schematics/main.svg" role="button" target="_blank">Raw SVG in a new page</a>
+          <a id="btn-df080510d1ba4dd6" class="book-btn" role="button" >Full Screen</a>
       </div>
 </div>
-<embed id="svg-df080510d1ba4dd6" type="image/svg+xml" width=100% src="/original/schematics/main.svg" style="background-color: #FFFFFF"/>
+<embed id="svg-df080510d1ba4dd6" type="image/svg+xml" width=100% src="/original/schematics/main.svg"  style="background-color:white"/>
 <script>
-  
-  
   function setup_svg_panzoom(){
     let params = {
           panEnabled: true,
@@ -453,7 +451,6 @@ https://github.com/alex-shpak/hugo-book
       };
       let svg_pz = svgPanZoom('#svg-df080510d1ba4dd6'        ,params);
       window["svg_df080510d1ba4dd6"] = svg_pz
-
       let button = document.getElementById("btn-df080510d1ba4dd6");
       button.onclick = ()=>{
           var elem = document.getElementById("svg-df080510d1ba4dd6");
@@ -473,7 +470,6 @@ https://github.com/alex-shpak/hugo-book
   }
   document.getElementById('svg-df080510d1ba4dd6').addEventListener('load', setup_svg_panzoom)
   window.addEventListener('resize', reset_position)
-
  </script>
 
 <h2 id="charging-module">
@@ -486,14 +482,11 @@ https://github.com/alex-shpak/hugo-book
 <div class="container">
   <div class="row">
       <div class="col text-center">
-          <a id="btn-bdbe967fd58d9cab" class="book-btn" role="button" >Full screen</a>
-          <a class="book-btn" href="/original/schematics/charger.svg" role="button" target="_blank">Raw SVG in a new page</a>
+          <a id="btn-bdbe967fd58d9cab" class="book-btn" role="button" >Full Screen</a>
       </div>
 </div>
-<embed id="svg-bdbe967fd58d9cab" type="image/svg+xml" width=100% src="/original/schematics/charger.svg" style="background-color: #FFFFFF"/>
+<embed id="svg-bdbe967fd58d9cab" type="image/svg+xml" width=100% src="/original/schematics/charger.svg"  style="background-color:white"/>
 <script>
-  
-  
   function setup_svg_panzoom(){
     let params = {
           panEnabled: true,
@@ -512,7 +505,6 @@ https://github.com/alex-shpak/hugo-book
       };
       let svg_pz = svgPanZoom('#svg-bdbe967fd58d9cab'        ,params);
       window["svg_bdbe967fd58d9cab"] = svg_pz
-
       let button = document.getElementById("btn-bdbe967fd58d9cab");
       button.onclick = ()=>{
           var elem = document.getElementById("svg-bdbe967fd58d9cab");
@@ -532,7 +524,6 @@ https://github.com/alex-shpak/hugo-book
   }
   document.getElementById('svg-bdbe967fd58d9cab').addEventListener('load', setup_svg_panzoom)
   window.addEventListener('resize', reset_position)
-
  </script>
 
 <h2 id="charger-io">
@@ -545,14 +536,11 @@ https://github.com/alex-shpak/hugo-book
 <div class="container">
   <div class="row">
       <div class="col text-center">
-          <a id="btn-6fe431c004edac28" class="book-btn" role="button" >Full screen</a>
-          <a class="book-btn" href="/original/schematics/charger_io.svg" role="button" target="_blank">Raw SVG in a new page</a>
+          <a id="btn-6fe431c004edac28" class="book-btn" role="button" >Full Screen</a>
       </div>
 </div>
-<embed id="svg-6fe431c004edac28" type="image/svg+xml" width=100% src="/original/schematics/charger_io.svg" style="background-color: #FFFFFF"/>
+<embed id="svg-6fe431c004edac28" type="image/svg+xml" width=100% src="/original/schematics/charger_io.svg"  style="background-color:white"/>
 <script>
-  
-  
   function setup_svg_panzoom(){
     let params = {
           panEnabled: true,
@@ -571,7 +559,6 @@ https://github.com/alex-shpak/hugo-book
       };
       let svg_pz = svgPanZoom('#svg-6fe431c004edac28'        ,params);
       window["svg_6fe431c004edac28"] = svg_pz
-
       let button = document.getElementById("btn-6fe431c004edac28");
       button.onclick = ()=>{
           var elem = document.getElementById("svg-6fe431c004edac28");
@@ -591,7 +578,6 @@ https://github.com/alex-shpak/hugo-book
   }
   document.getElementById('svg-6fe431c004edac28').addEventListener('load', setup_svg_panzoom)
   window.addEventListener('resize', reset_position)
-
  </script>
 
 <h2 id="rtc-cut-off">
@@ -604,14 +590,11 @@ https://github.com/alex-shpak/hugo-book
 <div class="container">
   <div class="row">
       <div class="col text-center">
-          <a id="btn-6fb0d40f7ebad6e6" class="book-btn" role="button" >Full screen</a>
-          <a class="book-btn" href="/original/schematics/rtc_cut_off.svg" role="button" target="_blank">Raw SVG in a new page</a>
+          <a id="btn-6fb0d40f7ebad6e6" class="book-btn" role="button" >Full Screen</a>
       </div>
 </div>
-<embed id="svg-6fb0d40f7ebad6e6" type="image/svg+xml" width=100% src="/original/schematics/rtc_cut_off.svg" style="background-color: #FFFFFF"/>
+<embed id="svg-6fb0d40f7ebad6e6" type="image/svg+xml" width=100% src="/original/schematics/rtc_cut_off.svg"  style="background-color:white"/>
 <script>
-  
-  
   function setup_svg_panzoom(){
     let params = {
           panEnabled: true,
@@ -630,7 +613,6 @@ https://github.com/alex-shpak/hugo-book
       };
       let svg_pz = svgPanZoom('#svg-6fb0d40f7ebad6e6'        ,params);
       window["svg_6fb0d40f7ebad6e6"] = svg_pz
-
       let button = document.getElementById("btn-6fb0d40f7ebad6e6");
       button.onclick = ()=>{
           var elem = document.getElementById("svg-6fb0d40f7ebad6e6");
@@ -650,7 +632,6 @@ https://github.com/alex-shpak/hugo-book
   }
   document.getElementById('svg-6fb0d40f7ebad6e6').addEventListener('load', setup_svg_panzoom)
   window.addEventListener('resize', reset_position)
-
  </script>
 
 <h2 id="regulator">
@@ -663,14 +644,11 @@ https://github.com/alex-shpak/hugo-book
 <div class="container">
   <div class="row">
       <div class="col text-center">
-          <a id="btn-b3a1dac00f5f4f9d" class="book-btn" role="button" >Full screen</a>
-          <a class="book-btn" href="/original/schematics/regulator.svg" role="button" target="_blank">Raw SVG in a new page</a>
+          <a id="btn-b3a1dac00f5f4f9d" class="book-btn" role="button" >Full Screen</a>
       </div>
 </div>
-<embed id="svg-b3a1dac00f5f4f9d" type="image/svg+xml" width=100% src="/original/schematics/regulator.svg" style="background-color: #FFFFFF"/>
+<embed id="svg-b3a1dac00f5f4f9d" type="image/svg+xml" width=100% src="/original/schematics/regulator.svg"  style="background-color:white"/>
 <script>
-  
-  
   function setup_svg_panzoom(){
     let params = {
           panEnabled: true,
@@ -689,7 +667,6 @@ https://github.com/alex-shpak/hugo-book
       };
       let svg_pz = svgPanZoom('#svg-b3a1dac00f5f4f9d'        ,params);
       window["svg_b3a1dac00f5f4f9d"] = svg_pz
-
       let button = document.getElementById("btn-b3a1dac00f5f4f9d");
       button.onclick = ()=>{
           var elem = document.getElementById("svg-b3a1dac00f5f4f9d");
@@ -709,7 +686,6 @@ https://github.com/alex-shpak/hugo-book
   }
   document.getElementById('svg-b3a1dac00f5f4f9d').addEventListener('load', setup_svg_panzoom)
   window.addEventListener('resize', reset_position)
-
  </script>
 
 <h2 id="battery-and-protection">
@@ -722,14 +698,11 @@ https://github.com/alex-shpak/hugo-book
 <div class="container">
   <div class="row">
       <div class="col text-center">
-          <a id="btn-4114c290d383d316" class="book-btn" role="button" >Full screen</a>
-          <a class="book-btn" href="/original/schematics/battery_protection.svg" role="button" target="_blank">Raw SVG in a new page</a>
+          <a id="btn-4114c290d383d316" class="book-btn" role="button" >Full Screen</a>
       </div>
 </div>
-<embed id="svg-4114c290d383d316" type="image/svg+xml" width=100% src="/original/schematics/battery_protection.svg" style="background-color: #FFFFFF"/>
+<embed id="svg-4114c290d383d316" type="image/svg+xml" width=100% src="/original/schematics/battery_protection.svg"  style="background-color:white"/>
 <script>
-  
-  
   function setup_svg_panzoom(){
     let params = {
           panEnabled: true,
@@ -748,7 +721,6 @@ https://github.com/alex-shpak/hugo-book
       };
       let svg_pz = svgPanZoom('#svg-4114c290d383d316'        ,params);
       window["svg_4114c290d383d316"] = svg_pz
-
       let button = document.getElementById("btn-4114c290d383d316");
       button.onclick = ()=>{
           var elem = document.getElementById("svg-4114c290d383d316");
@@ -768,7 +740,6 @@ https://github.com/alex-shpak/hugo-book
   }
   document.getElementById('svg-4114c290d383d316').addEventListener('load', setup_svg_panzoom)
   window.addEventListener('resize', reset_position)
-
  </script>
 
 <h2 id="mcu">
@@ -781,14 +752,11 @@ https://github.com/alex-shpak/hugo-book
 <div class="container">
   <div class="row">
       <div class="col text-center">
-          <a id="btn-a6ba02deb9756409" class="book-btn" role="button" >Full screen</a>
-          <a class="book-btn" href="/original/schematics/mcu.svg" role="button" target="_blank">Raw SVG in a new page</a>
+          <a id="btn-a6ba02deb9756409" class="book-btn" role="button" >Full Screen</a>
       </div>
 </div>
-<embed id="svg-a6ba02deb9756409" type="image/svg+xml" width=100% src="/original/schematics/mcu.svg" style="background-color: #FFFFFF"/>
+<embed id="svg-a6ba02deb9756409" type="image/svg+xml" width=100% src="/original/schematics/mcu.svg"  style="background-color:white"/>
 <script>
-  
-  
   function setup_svg_panzoom(){
     let params = {
           panEnabled: true,
@@ -807,7 +775,6 @@ https://github.com/alex-shpak/hugo-book
       };
       let svg_pz = svgPanZoom('#svg-a6ba02deb9756409'        ,params);
       window["svg_a6ba02deb9756409"] = svg_pz
-
       let button = document.getElementById("btn-a6ba02deb9756409");
       button.onclick = ()=>{
           var elem = document.getElementById("svg-a6ba02deb9756409");
@@ -827,7 +794,6 @@ https://github.com/alex-shpak/hugo-book
   }
   document.getElementById('svg-a6ba02deb9756409').addEventListener('load', setup_svg_panzoom)
   window.addEventListener('resize', reset_position)
-
  </script>
 
 </article>

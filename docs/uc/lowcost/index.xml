@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://superpower.github.io/docs/uc/lowcost/schematics/</guid>
-      <description>Use &amp;ldquo;shift + mouse wheel&amp;rdquo; to zoom without moving the pageTop View#Full screenRaw SVG in a new pagefunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-b64f3224e691b250&#39; ,params);window[&#34;svg_b64f3224e691b250&#34;] = svg_pzlet button = document.</description>
+      <description>Use &amp;ldquo;shift + mouse wheel&amp;rdquo; to zoom without moving the pageTop View#Full Screenfunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-b64f3224e691b250&#39; ,params);window[&#34;svg_b64f3224e691b250&#34;] = svg_pzlet button = document.getElementById(&#34;btn-b64f3224e691b250&#34;);button.onclick = ()={var elem = document.</description>
     </item>
     
   </channel>
