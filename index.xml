@@ -72,6 +72,15 @@ Schematics#Clean Text placement# After placing a symbol make sure the desi
     </item>
     
     <item>
+      <title>Interactive BOM</title>
+      <link>https://superpower.github.io/docs/uc/original/ibom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/uc/original/ibom/</guid>
+      <description>Interactive Bill of Materials#Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-c5fab1c590193bf0&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-c5fab1c590193bf0&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
+    </item>
+    
+    <item>
       <title>License</title>
       <link>https://superpower.github.io/docs/project/license/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
