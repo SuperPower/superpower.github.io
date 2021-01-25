@@ -19,19 +19,11 @@
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/rpi/schematics/</loc>
+    <loc>https://superpower.github.io/docs/lowcost/schematics/</loc>
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/uc/lowcost/schematics/</loc>
-  </url>
-  
-  <url>
-    <loc>https://superpower.github.io/docs/uc/original/schematics/</loc>
-  </url>
-  
-  <url>
-    <loc>https://superpower.github.io/docs/uc/original/bom/</loc>
+    <loc>https://superpower.github.io/docs/original/schematics/</loc>
   </url>
   
   <url>
@@ -39,7 +31,11 @@
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/uc/original/ibom/</loc>
+    <loc>https://superpower.github.io/docs/lowcost/ibom/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/original/ibom/</loc>
   </url>
   
   <url>
@@ -55,15 +51,15 @@
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/rpi/developers/</loc>
-  </url>
-  
-  <url>
     <loc>https://superpower.github.io/docs/uc/diagrams/</loc>
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/rpi/</loc>
+    <loc>https://superpower.github.io/docs/original/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/rpi/schematics/</loc>
   </url>
   
   <url>
@@ -71,11 +67,19 @@
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/uc/original/</loc>
+    <loc>https://superpower.github.io/docs/rpi/developers/</loc>
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/uc/lowcost/</loc>
+    <loc>https://superpower.github.io/docs/lowcost/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/rpi/ibom/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/rpi/</loc>
   </url>
   
   <url>

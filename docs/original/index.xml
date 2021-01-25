@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ESP32 &#34;Appolo&#34; on Super Power IoT</title>
+    <link>https://superpower.github.io/docs/original/</link>
+    <description>Recent content in ESP32 &#34;Appolo&#34; on Super Power IoT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://superpower.github.io/docs/original/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Schematics</title>
+      <link>https://superpower.github.io/docs/original/schematics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/original/schematics/</guid>
+      <description>schematics 21/12/2020 commit e659155Top View#Full Screenfunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-3ea1810aac0ba180&#39; ,params);window[&#34;svg_3ea1810aac0ba180&#34;] = svg_pzlet button = document.getElementById(&#34;btn-3ea1810aac0ba180&#34;);button.onclick = ()={var elem = document.</description>
+    </item>
+    
+    <item>
+      <title>Interactive BOM</title>
+      <link>https://superpower.github.io/docs/original/ibom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/original/ibom/</guid>
+      <description>Interactive Bill of Materials#schematics 21/12/2020 commit e659155Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-802930e70fa595e0&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-802930e70fa595e0&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
+    </item>
+    
+  </channel>
+</rss>

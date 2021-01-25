@@ -37,47 +37,38 @@ Schematics#Clean Text placement# After placing a symbol make sure the desi
     
     <item>
       <title>Schematics</title>
-      <link>https://superpower.github.io/docs/rpi/schematics/</link>
+      <link>https://superpower.github.io/docs/lowcost/schematics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://superpower.github.io/docs/rpi/schematics/</guid>
-      <description>schematics commit linkTop View#Full Screenfunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-ab7eb4abeb0393b5&#39; ,params);window[&#34;svg_ab7eb4abeb0393b5&#34;] = svg_pzlet button = document.getElementById(&#34;btn-ab7eb4abeb0393b5&#34;);button.onclick = ()={var elem = document.</description>
+      <guid>https://superpower.github.io/docs/lowcost/schematics/</guid>
+      <description>schematics 24/01/2021 commit d7be486Top View#Full Screenfunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-5fb1a529eee21e79&#39; ,params);window[&#34;svg_5fb1a529eee21e79&#34;] = svg_pzlet button = document.getElementById(&#34;btn-5fb1a529eee21e79&#34;);button.onclick = ()={var elem = document.</description>
     </item>
     
     <item>
       <title>Schematics</title>
-      <link>https://superpower.github.io/docs/uc/lowcost/schematics/</link>
+      <link>https://superpower.github.io/docs/original/schematics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://superpower.github.io/docs/uc/lowcost/schematics/</guid>
-      <description>Use &amp;ldquo;shift + mouse wheel&amp;rdquo; to zoom without moving the pageTop View#Full Screenfunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-b64f3224e691b250&#39; ,params);window[&#34;svg_b64f3224e691b250&#34;] = svg_pzlet button = document.getElementById(&#34;btn-b64f3224e691b250&#34;);button.onclick = ()={var elem = document.</description>
-    </item>
-    
-    <item>
-      <title>Schematics</title>
-      <link>https://superpower.github.io/docs/uc/original/schematics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://superpower.github.io/docs/uc/original/schematics/</guid>
-      <description>Top View#Full Screenfunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-df080510d1ba4dd6&#39; ,params);window[&#34;svg_df080510d1ba4dd6&#34;] = svg_pzlet button = document.getElementById(&#34;btn-df080510d1ba4dd6&#34;);button.onclick = ()={var elem = document.getElementById(&#34;svg-df080510d1ba4dd6&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.</description>
-    </item>
-    
-    <item>
-      <title>Bill Of Materials</title>
-      <link>https://superpower.github.io/docs/uc/original/bom/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://superpower.github.io/docs/uc/original/bom/</guid>
-      <description>BOM#Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-cd0357184624c048&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-cd0357184624c048&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
+      <guid>https://superpower.github.io/docs/original/schematics/</guid>
+      <description>schematics 21/12/2020 commit e659155Top View#Full Screenfunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-3ea1810aac0ba180&#39; ,params);window[&#34;svg_3ea1810aac0ba180&#34;] = svg_pzlet button = document.getElementById(&#34;btn-3ea1810aac0ba180&#34;);button.onclick = ()={var elem = document.</description>
     </item>
     
     <item>
       <title>Interactive BOM</title>
-      <link>https://superpower.github.io/docs/uc/original/ibom/</link>
+      <link>https://superpower.github.io/docs/lowcost/ibom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://superpower.github.io/docs/uc/original/ibom/</guid>
-      <description>Interactive Bill of Materials#Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-c5fab1c590193bf0&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-c5fab1c590193bf0&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
+      <guid>https://superpower.github.io/docs/lowcost/ibom/</guid>
+      <description>Interactive Bill of Materials#schematics 24/01/2021 commit d7be486Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-75fa39f46dd66ce2&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-75fa39f46dd66ce2&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
+    </item>
+    
+    <item>
+      <title>Interactive BOM</title>
+      <link>https://superpower.github.io/docs/original/ibom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/original/ibom/</guid>
+      <description>Interactive Bill of Materials#schematics 21/12/2020 commit e659155Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-802930e70fa595e0&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-802930e70fa595e0&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
     </item>
     
     <item>
@@ -110,23 +101,21 @@ CERN has developed this licence to promote collaboration among hardware designer
     </item>
     
     <item>
-      <title>Developers Section</title>
-      <link>https://superpower.github.io/docs/rpi/developers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://superpower.github.io/docs/rpi/developers/</guid>
-      <description>Firmware repo - DevelopersDevelopers section#In this section you&amp;rsquo;ll find all the documentation of the project and also how you can customize the behavior of the board by implementing your custom functionality
-Specifications#Hardware##TODO describe the main chips of the board
-Software#For the development of the code FreeRTOS was used because it offers the ability to divide the code in modules (tasks) and with this when new functionality is added you only need to consider (for the most part) the requirements and timing of the new functionality and FreeRTOS will handle the timing and resources of the other tasks so everything runs as expected.</description>
-    </item>
-    
-    <item>
       <title>Diagrams</title>
       <link>https://superpower.github.io/docs/uc/diagrams/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://superpower.github.io/docs/uc/diagrams/</guid>
       <description>Block diagram#Use case#</description>
+    </item>
+    
+    <item>
+      <title>Schematics</title>
+      <link>https://superpower.github.io/docs/rpi/schematics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/rpi/schematics/</guid>
+      <description>schematics commit linkTop View#Full Screenfunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-ab7eb4abeb0393b5&#39; ,params);window[&#34;svg_ab7eb4abeb0393b5&#34;] = svg_pzlet button = document.getElementById(&#34;btn-ab7eb4abeb0393b5&#34;);button.onclick = ()={var elem = document.</description>
     </item>
     
     <item>
@@ -139,6 +128,26 @@ Software#For the development of the code FreeRTOS was used because it offers 
 install hugo#Installing hugo is quite simple, as it&amp;rsquo;s a standalone binary that can be downloaded and added to the system path
 hugo getting-started : installingclone this repo#Note the recusive clone to add the git submodules as well
 &amp;gt;git clone --recursive https://github.com/SuperPower/hugo_website.git&amp;gt;cd hugo_website test locally#no generation is required to test locally, hugo takes care of generating and serving</description>
+    </item>
+    
+    <item>
+      <title>Developers Section</title>
+      <link>https://superpower.github.io/docs/rpi/developers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/rpi/developers/</guid>
+      <description>Firmware repo - DevelopersDevelopers section#In this section you&amp;rsquo;ll find all the documentation of the project and also how you can customize the behavior of the board by implementing your custom functionality
+Specifications#Hardware##TODO describe the main chips of the board
+Software#For the development of the code FreeRTOS was used because it offers the ability to divide the code in modules (tasks) and with this when new functionality is added you only need to consider (for the most part) the requirements and timing of the new functionality and FreeRTOS will handle the timing and resources of the other tasks so everything runs as expected.</description>
+    </item>
+    
+    <item>
+      <title>Interactive BOM</title>
+      <link>https://superpower.github.io/docs/rpi/ibom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/rpi/ibom/</guid>
+      <description>Interactive Bill of Materials#schematics commit linkFull screenOpen in a new pagevar button = document.getElementById(&#34;btn-fcff0563fc99c7ad&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-fcff0563fc99c7ad&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
     </item>
     
   </channel>
