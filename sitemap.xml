@@ -27,10 +27,6 @@
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/uc/</loc>
-  </url>
-  
-  <url>
     <loc>https://superpower.github.io/docs/uc/lowcost/ibom/</loc>
   </url>
   
@@ -40,6 +36,10 @@
   
   <url>
     <loc>https://superpower.github.io/docs/project/license/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/uc/</loc>
   </url>
   
   <url>
