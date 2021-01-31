@@ -19,19 +19,19 @@
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/uc/lowcost/schematics/</loc>
-  </url>
-  
-  <url>
     <loc>https://superpower.github.io/docs/uc/original/schematics/</loc>
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/uc/lowcost/ibom/</loc>
+    <loc>https://superpower.github.io/docs/uc/lowcost/schematics/</loc>
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/uc/original/ibom/</loc>
+    <loc>https://superpower.github.io/docs/uc/original/board/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/uc/lowcost/ibom/</loc>
   </url>
   
   <url>
@@ -56,6 +56,10 @@
   
   <url>
     <loc>https://superpower.github.io/docs/uc/diagrams/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/uc/original/ibom/</loc>
   </url>
   
   <url>

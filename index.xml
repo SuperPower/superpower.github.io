@@ -36,6 +36,15 @@ Schematics#Clean Text placement# After placing a symbol make sure the desi
     </item>
     
     <item>
+      <title>Schematics (ESP32 shield)</title>
+      <link>https://superpower.github.io/docs/uc/original/schematics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/uc/original/schematics/</guid>
+      <description>schematics 21/12/2020 commit e659155Top View#Full Screenfunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-3ea1810aac0ba180&#39; ,params);window[&#34;svg_3ea1810aac0ba180&#34;] = svg_pzlet button = document.getElementById(&#34;btn-3ea1810aac0ba180&#34;);button.onclick = ()={var elem = document.</description>
+    </item>
+    
+    <item>
       <title>Schematics with ESP32</title>
       <link>https://superpower.github.io/docs/uc/lowcost/schematics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -45,12 +54,12 @@ Schematics#Clean Text placement# After placing a symbol make sure the desi
     </item>
     
     <item>
-      <title>Schematics with ESP32 shield</title>
-      <link>https://superpower.github.io/docs/uc/original/schematics/</link>
+      <title>Board (ESP32 shield)</title>
+      <link>https://superpower.github.io/docs/uc/original/board/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://superpower.github.io/docs/uc/original/schematics/</guid>
-      <description>schematics 21/12/2020 commit e659155Top View#Full Screenfunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-3ea1810aac0ba180&#39; ,params);window[&#34;svg_3ea1810aac0ba180&#34;] = svg_pzlet button = document.getElementById(&#34;btn-3ea1810aac0ba180&#34;);button.onclick = ()={var elem = document.</description>
+      <guid>https://superpower.github.io/docs/uc/original/board/</guid>
+      <description>schematics 31/01/2021 commit 4732a2download pdfTop View#Full Screenfunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-f01b921080e9c78e&#39; ,params);window[&#34;svg_f01b921080e9c78e&#34;] = svg_pzlet button = document.getElementById(&#34;btn-f01b921080e9c78e&#34;);button.</description>
     </item>
     
     <item>
@@ -60,15 +69,6 @@ Schematics#Clean Text placement# After placing a symbol make sure the desi
       
       <guid>https://superpower.github.io/docs/uc/lowcost/ibom/</guid>
       <description>Interactive Bill of Materials#schematics 24/01/2021 commit d7be486Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-75fa39f46dd66ce2&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-75fa39f46dd66ce2&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
-    </item>
-    
-    <item>
-      <title>Interactive BOM</title>
-      <link>https://superpower.github.io/docs/uc/original/ibom/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://superpower.github.io/docs/uc/original/ibom/</guid>
-      <description>Interactive Bill of Materials#schematics 21/12/2020 commit e659155Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-802930e70fa595e0&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-802930e70fa595e0&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
     </item>
     
     <item>
@@ -107,6 +107,15 @@ CERN has developed this licence to promote collaboration among hardware designer
       
       <guid>https://superpower.github.io/docs/uc/diagrams/</guid>
       <description>Block diagram#Use case#</description>
+    </item>
+    
+    <item>
+      <title>Interactive BOM</title>
+      <link>https://superpower.github.io/docs/uc/original/ibom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/uc/original/ibom/</guid>
+      <description>Interactive Bill of Materials#schematics 21/12/2020 commit e659155Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-802930e70fa595e0&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-802930e70fa595e0&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
     </item>
     
     <item>

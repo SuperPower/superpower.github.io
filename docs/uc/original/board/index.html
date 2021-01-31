@@ -5,13 +5,13 @@
   <meta name="generator" content="Hugo 0.79.1" />
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Interactive Bill of Materials#schematics 21/12/2020 commit e659155Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-802930e70fa595e0&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-802930e70fa595e0&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};">
-<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Interactive BOM" />
-<meta property="og:description" content="Interactive Bill of Materials#schematics 21/12/2020 commit e659155Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-802930e70fa595e0&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-802930e70fa595e0&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};" />
+<meta name="description" content="schematics 31/01/2021 commit 4732a2download pdfTop View#Full Screenfunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-f01b921080e9c78e&#39; ,params);window[&#34;svg_f01b921080e9c78e&#34;] = svg_pzlet button = document.getElementById(&#34;btn-f01b921080e9c78e&#34;);button.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Board (ESP32 shield)" />
+<meta property="og:description" content="schematics 31/01/2021 commit 4732a2download pdfTop View#Full Screenfunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-f01b921080e9c78e&#39; ,params);window[&#34;svg_f01b921080e9c78e&#34;] = svg_pzlet button = document.getElementById(&#34;btn-f01b921080e9c78e&#34;);button." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://superpower.github.io/docs/uc/original/ibom/" />
+<meta property="og:url" content="https://superpower.github.io/docs/uc/original/board/" />
 
-<title>Interactive BOM | Super Power IoT</title>
+<title>Board (ESP32 shield) | Super Power IoT</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.0f40b4e83b0db00d11c595295e7f5f85f51436d20a5b6790534cb30c9f46a201.css" integrity="sha256-D0C06DsNsA0RxZUpXn9fhfUUNtIKW2eQU0yzDJ9GogE=">
@@ -192,7 +192,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://superpower.github.io/docs/uc/original/board/" class="">Board (ESP32 shield)</a>
+    <a href="https://superpower.github.io/docs/uc/original/board/" class=" active">Board (ESP32 shield)</a>
   
 
         </li>
@@ -205,7 +205,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://superpower.github.io/docs/uc/original/ibom/" class=" active">Interactive BOM</a>
+    <a href="https://superpower.github.io/docs/uc/original/ibom/" class="">Interactive BOM</a>
   
 
         </li>
@@ -426,7 +426,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Interactive BOM</strong>
+  <strong>Board (ESP32 shield)</strong>
 
   <label for="toc-control">
     
@@ -440,47 +440,134 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h1 id="interactive-bill-of-materials">
-  Interactive Bill of Materials
-  <a class="anchor" href="#interactive-bill-of-materials">#</a>
-</h1>
-<p>
+  <article class="markdown">
 <div class="container">
     <div class="row">
         <div class="col text-center">
-        <a class="book-btn" href="https://github.com/Informaticore/SuperPower/commit/e6591557668c6dbdd6b0a9f0698953bccd4b24dd" role="button" target="_blank">schematics 21/12/2020 commit e659155</a>
+        <a class="book-btn" href="https://github.com/Informaticore/SuperPower/commit/4732a200a3775597fca2253b0fe58eb1a1270318" role="button" target="_blank">schematics 31/01/2021 commit 4732a2</a>
         </div>
         <br>
     </div>
 </div>
 
 
+<div class="container">
+    <div class="row">
+        <div class="col text-center">
+        <a class="book-btn" href="https://superpower.github.io/original/layout/SuperPower-uC-KiCad-Board.pdf" role="button" target="_blank">download pdf</a>
+        </div>
+        <br>
+    </div>
+</div>
+
+<h2 id="top-view">
+  Top View
+  <a class="anchor" href="#top-view">#</a>
+</h2>
 
 
 
 <div class="container">
-    <div class="row">
-        <div class="col text-center">
-            <a id="btn-802930e70fa595e0" class="book-btn" role="button" >Full screen</a>
-            <a class="book-btn" href="/original/ibom.html" role="button" target="_blank">Open in a new page</a>
-        </div>
+  <div class="row">
+      <div class="col text-center">
+          <a id="btn-f01b921080e9c78e" class="book-btn" role="button" >Full Screen</a>
+      </div>
 </div>
-<iframe id="ifm-802930e70fa595e0" src="/original/ibom.html" width=100% height=800 frameborder="0" ></iframe>
-
+<embed id="svg-f01b921080e9c78e" type="image/svg+xml" width=100% src="/original/layout/SuperPower-uC-KiCad-Board_top.svg"  style="background-color:white"/>
 <script>
-    var button = document.getElementById("btn-802930e70fa595e0");
-    button.onclick = ()=>{
-        var elem = document.getElementById("ifm-802930e70fa595e0");
-        if (elem.requestFullscreen) {
-        elem.requestFullscreen();
-        } else if (elem.webkitRequestFullscreen) {  
-        elem.webkitRequestFullscreen();
-        } else if (elem.msRequestFullscreen) {  
-        elem.msRequestFullscreen();
-        }
-    };
-</script>
-</p>
+  function setup_svg_panzoom(){
+    let params = {
+          panEnabled: true,
+          zoomEnabled: true,
+          dblClickZoomEnabled: true,
+          controlIconsEnabled: false,
+          mouseWheelZoomEnabled: true,
+          preventMouseEventsDefault: true,
+          zoomScaleSensitivity: 0.6,
+          minZoom: 0.5,
+          maxZoom: 4,
+           fit: true
+          , contain: true
+          , center: true
+          , refreshRate: 'auto'
+      };
+      let svg_pz = svgPanZoom('#svg-f01b921080e9c78e'        ,params);
+      window["svg_f01b921080e9c78e"] = svg_pz
+      let button = document.getElementById("btn-f01b921080e9c78e");
+      button.onclick = ()=>{
+          var elem = document.getElementById("svg-f01b921080e9c78e");
+          if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+          } else if (elem.webkitRequestFullscreen) {  
+          elem.webkitRequestFullscreen();
+          } else if (elem.msRequestFullscreen) {  
+          elem.msRequestFullscreen();
+          }
+      };
+  }
+  function reset_position(){
+    window["svg_f01b921080e9c78e"].resize()
+    window["svg_f01b921080e9c78e"].fit()
+    window["svg_f01b921080e9c78e"].center()
+  }
+  document.getElementById('svg-f01b921080e9c78e').addEventListener('load', setup_svg_panzoom)
+  window.addEventListener('resize', reset_position)
+ </script>
+
+<h2 id="bottom-view">
+  Bottom View
+  <a class="anchor" href="#bottom-view">#</a>
+</h2>
+
+
+
+<div class="container">
+  <div class="row">
+      <div class="col text-center">
+          <a id="btn-db0fb85eea579183" class="book-btn" role="button" >Full Screen</a>
+      </div>
+</div>
+<embed id="svg-db0fb85eea579183" type="image/svg+xml" width=100% src="/original/layout/SuperPower-uC-KiCad-Board_bottom.svg"  style="background-color:white"/>
+<script>
+  function setup_svg_panzoom(){
+    let params = {
+          panEnabled: true,
+          zoomEnabled: true,
+          dblClickZoomEnabled: true,
+          controlIconsEnabled: false,
+          mouseWheelZoomEnabled: true,
+          preventMouseEventsDefault: true,
+          zoomScaleSensitivity: 0.6,
+          minZoom: 0.5,
+          maxZoom: 4,
+           fit: true
+          , contain: true
+          , center: true
+          , refreshRate: 'auto'
+      };
+      let svg_pz = svgPanZoom('#svg-db0fb85eea579183'        ,params);
+      window["svg_db0fb85eea579183"] = svg_pz
+      let button = document.getElementById("btn-db0fb85eea579183");
+      button.onclick = ()=>{
+          var elem = document.getElementById("svg-db0fb85eea579183");
+          if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+          } else if (elem.webkitRequestFullscreen) {  
+          elem.webkitRequestFullscreen();
+          } else if (elem.msRequestFullscreen) {  
+          elem.msRequestFullscreen();
+          }
+      };
+  }
+  function reset_position(){
+    window["svg_db0fb85eea579183"].resize()
+    window["svg_db0fb85eea579183"].fit()
+    window["svg_db0fb85eea579183"].center()
+  }
+  document.getElementById('svg-db0fb85eea579183').addEventListener('load', setup_svg_panzoom)
+  window.addEventListener('resize', reset_position)
+ </script>
+
 </article>
  
       
