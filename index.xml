@@ -63,6 +63,15 @@ Schematics#Clean Text placement# After placing a symbol make sure the desi
     </item>
     
     <item>
+      <title>Board (ESP32 single)</title>
+      <link>https://superpower.github.io/docs/uc/lowcost/board/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/uc/lowcost/board/</guid>
+      <description>github action 01/02/2021schematics 01/02/2021 commit 1a7d5bbbview pdfTop View#Full Screenfunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-ed062a7d4deea496&#39; ,params);window[&#34;svg_ed062a7d4deea496&#34;] = svg_pzlet button = document.</description>
+    </item>
+    
+    <item>
       <title>Interactive BOM</title>
       <link>https://superpower.github.io/docs/uc/lowcost/ibom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -137,6 +146,15 @@ CERN has developed this licence to promote collaboration among hardware designer
 install hugo#Installing hugo is quite simple, as it&amp;rsquo;s a standalone binary that can be downloaded and added to the system path
 hugo getting-started : installingclone this repo#Note the recusive clone to add the git submodules as well
 &amp;gt;git clone --recursive https://github.com/SuperPower/hugo_website.git&amp;gt;cd hugo_website test locally#no generation is required to test locally, hugo takes care of generating and serving</description>
+    </item>
+    
+    <item>
+      <title>Board</title>
+      <link>https://superpower.github.io/docs/rpi/board/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/rpi/board/</guid>
+      <description>github action 11/01/2021schematics 11/01/2021 commit d3b12cf7view pdfTop View#Full Screenfunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-8b74164f79ac2d97&#39; ,params);window[&#34;svg_8b74164f79ac2d97&#34;] = svg_pzlet button = document.</description>
     </item>
     
     <item>

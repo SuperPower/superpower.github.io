@@ -34,6 +34,15 @@
     </item>
     
     <item>
+      <title>Board</title>
+      <link>https://superpower.github.io/docs/rpi/board/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/rpi/board/</guid>
+      <description>github action 11/01/2021schematics 11/01/2021 commit d3b12cf7view pdfTop View#Full Screenfunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-8b74164f79ac2d97&#39; ,params);window[&#34;svg_8b74164f79ac2d97&#34;] = svg_pzlet button = document.</description>
+    </item>
+    
+    <item>
       <title>Developers Section</title>
       <link>https://superpower.github.io/docs/rpi/developers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

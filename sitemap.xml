@@ -31,6 +31,10 @@
   </url>
   
   <url>
+    <loc>https://superpower.github.io/docs/uc/lowcost/board/</loc>
+  </url>
+  
+  <url>
     <loc>https://superpower.github.io/docs/uc/lowcost/ibom/</loc>
   </url>
   
@@ -75,15 +79,19 @@
   </url>
   
   <url>
+    <loc>https://superpower.github.io/docs/rpi/board/</loc>
+  </url>
+  
+  <url>
     <loc>https://superpower.github.io/docs/rpi/developers/</loc>
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/rpi/ibom/</loc>
+    <loc>https://superpower.github.io/docs/rpi/</loc>
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/rpi/</loc>
+    <loc>https://superpower.github.io/docs/rpi/ibom/</loc>
   </url>
   
   <url>
