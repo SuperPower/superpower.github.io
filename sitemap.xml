@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://superpower.github.io/docs/uc/original/</loc>
+  </url>
+  
+  <url>
     <loc>https://superpower.github.io/docs/project/guidelines/</loc>
   </url>
   
@@ -15,15 +19,15 @@
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/uc/requirements/</loc>
-  </url>
-  
-  <url>
     <loc>https://superpower.github.io/docs/uc/original/schematics/</loc>
   </url>
   
   <url>
     <loc>https://superpower.github.io/docs/uc/lowcost/schematics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/uc/lowcost/</loc>
   </url>
   
   <url>
@@ -55,15 +59,11 @@
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/uc/original/</loc>
-  </url>
-  
-  <url>
-    <loc>https://superpower.github.io/docs/uc/diagrams/</loc>
-  </url>
-  
-  <url>
     <loc>https://superpower.github.io/docs/uc/original/ibom/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/uc/requirements/</loc>
   </url>
   
   <url>
@@ -75,15 +75,15 @@
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/uc/lowcost/</loc>
-  </url>
-  
-  <url>
     <loc>https://superpower.github.io/docs/rpi/board/</loc>
   </url>
   
   <url>
     <loc>https://superpower.github.io/docs/rpi/developers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/uc/diagrams/</loc>
   </url>
   
   <url>

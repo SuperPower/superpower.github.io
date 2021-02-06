@@ -27,15 +27,6 @@ Schematics#Clean Text placement# After placing a symbol make sure the desi
     </item>
     
     <item>
-      <title>Requirements</title>
-      <link>https://superpower.github.io/docs/uc/requirements/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://superpower.github.io/docs/uc/requirements/</guid>
-      <description>Requirements#Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-c1faa48d69c2c798&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-c1faa48d69c2c798&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
-    </item>
-    
-    <item>
       <title>Schematics (ESP32 shield)</title>
       <link>https://superpower.github.io/docs/uc/original/schematics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -110,21 +101,21 @@ CERN has developed this licence to promote collaboration among hardware designer
     </item>
     
     <item>
-      <title>Diagrams</title>
-      <link>https://superpower.github.io/docs/uc/diagrams/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://superpower.github.io/docs/uc/diagrams/</guid>
-      <description>Block diagram#Use case#</description>
-    </item>
-    
-    <item>
       <title>Interactive BOM</title>
       <link>https://superpower.github.io/docs/uc/original/ibom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://superpower.github.io/docs/uc/original/ibom/</guid>
       <description>Interactive Bill of Materials#schematics 21/12/2020 commit e659155Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-802930e70fa595e0&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-802930e70fa595e0&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
+    </item>
+    
+    <item>
+      <title>Requirements</title>
+      <link>https://superpower.github.io/docs/uc/requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/uc/requirements/</guid>
+      <description>Requirements#Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-c1faa48d69c2c798&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-c1faa48d69c2c798&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
     </item>
     
     <item>
@@ -166,6 +157,15 @@ hugo getting-started : installingclone this repo#Note the recusive clone 
       <description>Firmware repo - DevelopersDevelopers section#In this section you&amp;rsquo;ll find all the documentation of the project and also how you can customize the behavior of the board by implementing your custom functionality
 Specifications#Hardware##TODO describe the main chips of the board
 Software#For the development of the code FreeRTOS was used because it offers the ability to divide the code in modules (tasks) and with this when new functionality is added you only need to consider (for the most part) the requirements and timing of the new functionality and FreeRTOS will handle the timing and resources of the other tasks so everything runs as expected.</description>
+    </item>
+    
+    <item>
+      <title>Diagrams</title>
+      <link>https://superpower.github.io/docs/uc/diagrams/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/uc/diagrams/</guid>
+      <description>Block diagram#Use case#</description>
     </item>
     
     <item>
