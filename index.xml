@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Oct 2020 08:48:23 +0000</lastBuildDate><atom:link href="https://superpower.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Description</title>
+      <link>https://superpower.github.io/docs/rpi/description/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/rpi/description/</guid>
+      <description>Repositories#main publishing repoRPI Team working forkFirmware repoSuper Power: Leto a Raspberry Pi UPS Solution#Description reference in gdriveProject Goals#Develop a community-based, and hence user sourced, multifunction UPS solution for use with the Raspberry Pi main SBC platform (currently RPi3 and 4 models). The board is designed to provide remote power or UPS solutions.</description>
+    </item>
+    
+    <item>
       <title>Guidelines</title>
       <link>https://superpower.github.io/docs/project/guidelines/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -15,15 +24,6 @@
       <guid>https://superpower.github.io/docs/project/guidelines/</guid>
       <description>Guidelines#Good schematics show you the circuit. Bad schematics make you decipher them. Here you can find a bunch of guidelines we set up to get consistent schematics along the project.
 Schematics#Clean Text placement# After placing a symbol make sure the designator is close to the symbol and does not overlap other text or tracks Make some space and move parts if they are too close Do not place text verticaly  Layout flow# Logical flow from left to right Power connectioncs should go up to positive voltages and down to negative voltages Rotate common symbols the same way to find similarities faster in a schematics  Schematic Symbols# Show pins of an IC in a position relevant to their function, not how they happen to stick out of the chip.</description>
-    </item>
-    
-    <item>
-      <title>Overview</title>
-      <link>https://superpower.github.io/docs/rpi/overview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://superpower.github.io/docs/rpi/overview/</guid>
-      <description>This project is currently still under development.Repositories#main publishing repoRPI Team working forkFirmware repoBlock Diagram#reference design in gdriveFull Screenfunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-e11c136b1839544f&#39; ,params);window[&#34;</description>
     </item>
     
     <item>
