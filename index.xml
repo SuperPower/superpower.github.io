@@ -92,12 +92,12 @@ CERN has developed this licence to promote collaboration among hardware designer
     </item>
     
     <item>
-      <title>Workflow</title>
-      <link>https://superpower.github.io/docs/uc/workflow/</link>
+      <title>Features</title>
+      <link>https://superpower.github.io/docs/uc/features/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://superpower.github.io/docs/uc/workflow/</guid>
-      <description>Branching and Pull-Requests# The master is the single point of truth and the latest version of the board. Only Merge-Requests are allowed to push changes onto the master. each merge-request needs 2 reviewers to be accepted. feature branches should start with the term feature/ and the name of the feature which will be implemented try to commit often and atomar and give each commit a nice description of what had been done use words like added, fixed, changed etc.</description>
+      <guid>https://superpower.github.io/docs/uc/features/</guid>
+      <description>Reference Github ticketFeatures#   Features Apollo Artemis     5V outputs switchable / buck-boost switchable / boost   5V Output current 1.5A 0.5 A   3.3V outputs switchable / buck-boost switchable / linear   3.3V Output current 1A 0.5 A   Protected Battery output yes no (connector missing tbd)   RTC yes yes   RTC Bypass yes yes   NTC (temperature) yes yes   External wakeup yes yes   Button wakeup yes yes   Charger switching buck linear   Charging current 500mA 500mA   Power path yes no   Telemetry yes no   Chemistry Li-Ion/LiPo (Available chip for LiFePo4) Li-Ion/LiPo   sleep current (tbc) ?</description>
     </item>
     
     <item>
@@ -107,15 +107,6 @@ CERN has developed this licence to promote collaboration among hardware designer
       
       <guid>https://superpower.github.io/docs/uc/original/ibom/</guid>
       <description>Interactive Bill of Materials#schematics 21/12/2020 commit e659155Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-802930e70fa595e0&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-802930e70fa595e0&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
-    </item>
-    
-    <item>
-      <title>Requirements</title>
-      <link>https://superpower.github.io/docs/uc/requirements/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://superpower.github.io/docs/uc/requirements/</guid>
-      <description>Requirements#Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-c1faa48d69c2c798&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-c1faa48d69c2c798&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
     </item>
     
     <item>
@@ -149,6 +140,15 @@ hugo getting-started : installingclone this repo#Note the recusive clone 
     </item>
     
     <item>
+      <title>Requirements</title>
+      <link>https://superpower.github.io/docs/uc/requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/uc/requirements/</guid>
+      <description>Requirements#Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-c1faa48d69c2c798&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-c1faa48d69c2c798&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
+    </item>
+    
+    <item>
       <title>Developers Section</title>
       <link>https://superpower.github.io/docs/rpi/developers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -157,6 +157,15 @@ hugo getting-started : installingclone this repo#Note the recusive clone 
       <description>Firmware repo - DevelopersDevelopers section#In this section you&amp;rsquo;ll find all the documentation of the project and also how you can customize the behavior of the board by implementing your custom functionality
 Specifications#Hardware##TODO describe the main chips of the board
 Software#For the development of the code FreeRTOS was used because it offers the ability to divide the code in modules (tasks) and with this when new functionality is added you only need to consider (for the most part) the requirements and timing of the new functionality and FreeRTOS will handle the timing and resources of the other tasks so everything runs as expected.</description>
+    </item>
+    
+    <item>
+      <title>Workflow</title>
+      <link>https://superpower.github.io/docs/uc/workflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/uc/workflow/</guid>
+      <description>Branching and Pull-Requests# The master is the single point of truth and the latest version of the board. Only Merge-Requests are allowed to push changes onto the master. each merge-request needs 2 reviewers to be accepted. feature branches should start with the term feature/ and the name of the feature which will be implemented try to commit often and atomar and give each commit a nice description of what had been done use words like added, fixed, changed etc.</description>
     </item>
     
     <item>

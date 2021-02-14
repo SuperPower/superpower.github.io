@@ -55,15 +55,11 @@
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/uc/workflow/</loc>
+    <loc>https://superpower.github.io/docs/uc/features/</loc>
   </url>
   
   <url>
     <loc>https://superpower.github.io/docs/uc/original/ibom/</loc>
-  </url>
-  
-  <url>
-    <loc>https://superpower.github.io/docs/uc/requirements/</loc>
   </url>
   
   <url>
@@ -79,15 +75,23 @@
   </url>
   
   <url>
+    <loc>https://superpower.github.io/docs/uc/requirements/</loc>
+  </url>
+  
+  <url>
     <loc>https://superpower.github.io/docs/rpi/developers/</loc>
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/uc/diagrams/</loc>
+    <loc>https://superpower.github.io/docs/rpi/</loc>
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/rpi/</loc>
+    <loc>https://superpower.github.io/docs/uc/workflow/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/uc/diagrams/</loc>
   </url>
   
   <url>

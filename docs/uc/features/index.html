@@ -5,13 +5,13 @@
   <meta name="generator" content="Hugo 0.79.1" />
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Branching and Pull-Requests# The master is the single point of truth and the latest version of the board. Only Merge-Requests are allowed to push changes onto the master. each merge-request needs 2 reviewers to be accepted. feature branches should start with the term feature/ and the name of the feature which will be implemented try to commit often and atomar and give each commit a nice description of what had been done use words like added, fixed, changed etc.">
-<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Workflow" />
-<meta property="og:description" content="Branching and Pull-Requests# The master is the single point of truth and the latest version of the board. Only Merge-Requests are allowed to push changes onto the master. each merge-request needs 2 reviewers to be accepted. feature branches should start with the term feature/ and the name of the feature which will be implemented try to commit often and atomar and give each commit a nice description of what had been done use words like added, fixed, changed etc." />
+<meta name="description" content="Reference Github ticketFeatures#   Features Apollo Artemis     5V outputs switchable / buck-boost switchable / boost   5V Output current 1.5A 0.5 A   3.3V outputs switchable / buck-boost switchable / linear   3.3V Output current 1A 0.5 A   Protected Battery output yes no (connector missing tbd)   RTC yes yes   RTC Bypass yes yes   NTC (temperature) yes yes   External wakeup yes yes   Button wakeup yes yes   Charger switching buck linear   Charging current 500mA 500mA   Power path yes no   Telemetry yes no   Chemistry Li-Ion/LiPo (Available chip for LiFePo4) Li-Ion/LiPo   sleep current (tbc) ?">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Features" />
+<meta property="og:description" content="Reference Github ticketFeatures#   Features Apollo Artemis     5V outputs switchable / buck-boost switchable / boost   5V Output current 1.5A 0.5 A   3.3V outputs switchable / buck-boost switchable / linear   3.3V Output current 1A 0.5 A   Protected Battery output yes no (connector missing tbd)   RTC yes yes   RTC Bypass yes yes   NTC (temperature) yes yes   External wakeup yes yes   Button wakeup yes yes   Charger switching buck linear   Charging current 500mA 500mA   Power path yes no   Telemetry yes no   Chemistry Li-Ion/LiPo (Available chip for LiFePo4) Li-Ion/LiPo   sleep current (tbc) ?" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://superpower.github.io/docs/uc/workflow/" />
+<meta property="og:url" content="https://superpower.github.io/docs/uc/features/" />
 
-<title>Workflow | Super Power IoT</title>
+<title>Features | Super Power IoT</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.735b6849677de59e1feb300b389bb45db29dadbd954aef8eaa29542edea3aa8f.css" integrity="sha256-c1toSWd95Z4f6zALOJu0XbKdrb2VSu&#43;OqilULt6jqo8=">
@@ -259,7 +259,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://superpower.github.io/docs/uc/features/" class="">Features</a>
+    <a href="https://superpower.github.io/docs/uc/features/" class=" active">Features</a>
   
 
         </li>
@@ -285,7 +285,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://superpower.github.io/docs/uc/workflow/" class=" active">Workflow</a>
+    <a href="https://superpower.github.io/docs/uc/workflow/" class="">Workflow</a>
   
 
         </li>
@@ -468,92 +468,155 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Workflow</strong>
+  <strong>Features</strong>
 
   <label for="toc-control">
-    
-    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
     
   </label>
 </div>
 
 
   
-  <aside class="hidden clearfix">
-    
-  <nav id="TableOfContents">
-  <ul>
-    <li><a href="#branching-and-pull-requests">Branching and Pull-Requests</a></li>
-    <li><a href="#project-phases">Project phases</a></li>
-    <li><a href="#guidelines-for-project-progress">Guidelines for project progress</a></li>
-  </ul>
-</nav>
-
-
-  </aside>
-  
  
       </header>
 
       
       
-  <article class="markdown"><h2 id="branching-and-pull-requests">
-  Branching and Pull-Requests
-  <a class="anchor" href="#branching-and-pull-requests">#</a>
-</h2>
-<ul>
-<li>The master is the single point of truth and the latest version of the board. Only Merge-Requests are allowed to push changes onto the master.</li>
-<li>each merge-request needs 2 reviewers to be accepted.</li>
-<li>feature branches should start with the term <code>feature/</code> and the name of the feature which will be implemented</li>
-<li>try to commit often and atomar and give each commit a nice description of what had been done</li>
-<li>use words like <code>added</code>, <code>fixed</code>, <code>changed</code> etc. at the beginning of your commits</li>
-</ul>
-<p>Examples:</p>
-<blockquote class="book-hint info">
-  Added Pull up resistor for xyz regulator
-</blockquote>
+  <article class="markdown">
+<div class="container">
+    <div class="row">
+        <div class="col text-center">
+        <a class="book-btn" href="https://github.com/Informaticore/SuperPower/issues/76" role="button" target="_blank">Reference Github ticket</a>
+        </div>
+        <br>
+    </div>
+</div>
 
-<blockquote class="book-hint info">
-  Changed value of Pull-Up for regulator from 10k to 100k
-</blockquote>
-
-<blockquote class="book-hint info">
-  Fixed missing ESP32 Module
-</blockquote>
-
-<ul>
-<li>a git gui tool with timeline view is strongly recommended</li>
-<li>each contributor shall pro actively detect conflicts he creates or created by other branches and get in touch to define a conflict resolution strategy</li>
-<li>key files such as readme and information such as BOM and requirements should be checked by all contributors before merge</li>
-</ul>
-<h2 id="project-phases">
-  Project phases
-  <a class="anchor" href="#project-phases">#</a>
-</h2>
-<ul>
-<li>Requirements</li>
-<li>Components selection</li>
-<li>Schematics design</li>
-<li>routing</li>
-<li>testing and validation</li>
-</ul>
-<h2 id="guidelines-for-project-progress">
-  Guidelines for project progress
-  <a class="anchor" href="#guidelines-for-project-progress">#</a>
-</h2>
-<ul>
-<li>Each step of the project progress shall be validated in a group meeting</li>
-<li>After validation, each change in the step (requirements, component) shall be agreed with the Team and not with two reviewers only and PR</li>
-<li>Each feature (mcu / cut_off / charging / low power &hellip;) shall have a maturity level
-<ul>
-<li>1 ) clear concept</li>
-<li>2 ) design ready</li>
-<li>3 ) functional</li>
-<li>4 ) stable and bug free</li>
-</ul>
-</li>
-<li>The maturity level is decided by the Team during a meeting</li>
-</ul>
+<h1 id="features">
+  Features
+  <a class="anchor" href="#features">#</a>
+</h1>
+<table>
+<thead>
+<tr>
+<th>Features</th>
+<th style="text-align:center">Apollo</th>
+<th style="text-align:right">Artemis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5V outputs</td>
+<td style="text-align:center">switchable / buck-boost</td>
+<td style="text-align:right">switchable / boost</td>
+</tr>
+<tr>
+<td>5V Output current</td>
+<td style="text-align:center">1.5A</td>
+<td style="text-align:right">0.5 A</td>
+</tr>
+<tr>
+<td>3.3V outputs</td>
+<td style="text-align:center">switchable / buck-boost</td>
+<td style="text-align:right">switchable / linear</td>
+</tr>
+<tr>
+<td>3.3V Output current</td>
+<td style="text-align:center">1A</td>
+<td style="text-align:right">0.5 A</td>
+</tr>
+<tr>
+<td>Protected Battery output</td>
+<td style="text-align:center">yes</td>
+<td style="text-align:right">no (connector missing tbd)</td>
+</tr>
+<tr>
+<td>RTC</td>
+<td style="text-align:center">yes</td>
+<td style="text-align:right">yes</td>
+</tr>
+<tr>
+<td>RTC Bypass</td>
+<td style="text-align:center">yes</td>
+<td style="text-align:right">yes</td>
+</tr>
+<tr>
+<td>NTC (temperature)</td>
+<td style="text-align:center">yes</td>
+<td style="text-align:right">yes</td>
+</tr>
+<tr>
+<td>External wakeup</td>
+<td style="text-align:center">yes</td>
+<td style="text-align:right">yes</td>
+</tr>
+<tr>
+<td>Button wakeup</td>
+<td style="text-align:center">yes</td>
+<td style="text-align:right">yes</td>
+</tr>
+<tr>
+<td>Charger</td>
+<td style="text-align:center">switching buck</td>
+<td style="text-align:right">linear</td>
+</tr>
+<tr>
+<td>Charging current</td>
+<td style="text-align:center">500mA</td>
+<td style="text-align:right">500mA</td>
+</tr>
+<tr>
+<td>Power path</td>
+<td style="text-align:center">yes</td>
+<td style="text-align:right">no</td>
+</tr>
+<tr>
+<td>Telemetry</td>
+<td style="text-align:center">yes</td>
+<td style="text-align:right">no</td>
+</tr>
+<tr>
+<td>Chemistry</td>
+<td style="text-align:center">Li-Ion/LiPo (Available chip for LiFePo4)</td>
+<td style="text-align:right">Li-Ion/LiPo</td>
+</tr>
+<tr>
+<td>sleep current (tbc)</td>
+<td style="text-align:center">?? uA</td>
+<td style="text-align:right">9 uA</td>
+</tr>
+<tr>
+<td>USB</td>
+<td style="text-align:center">USB-C</td>
+<td style="text-align:right">micro USB</td>
+</tr>
+<tr>
+<td>USB-ESD protection</td>
+<td style="text-align:center">yes</td>
+<td style="text-align:right">no</td>
+</tr>
+<tr>
+<td>Efficiency (to be measured)</td>
+<td style="text-align:center">High</td>
+<td style="text-align:right">Low</td>
+</tr>
+<tr>
+<td>Max input Volt</td>
+<td style="text-align:center">16 V</td>
+<td style="text-align:right">8 V</td>
+</tr>
+<tr>
+<td>Number of cells</td>
+<td style="text-align:center">up to 3</td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td>RGBW LED</td>
+<td style="text-align:center">yes</td>
+<td style="text-align:right">no</td>
+</tr>
+</tbody>
+</table>
 </article>
  
       
@@ -583,19 +646,6 @@ https://github.com/alex-shpak/hugo-book
       <label for="menu-control" class="hidden book-menu-overlay"></label>
     </div>
 
-    
-    <aside class="book-toc">
-      
-  <nav id="TableOfContents">
-  <ul>
-    <li><a href="#branching-and-pull-requests">Branching and Pull-Requests</a></li>
-    <li><a href="#project-phases">Project phases</a></li>
-    <li><a href="#guidelines-for-project-progress">Guidelines for project progress</a></li>
-  </ul>
-</nav>
-
- 
-    </aside>
     
   </main>
 
