@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta name="generator" content="Hugo 0.79.1" />
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="github action 01/02/2021schematics 01/02/2021 commit 1a7d5bbbview pdfTop View#Full Screenfunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-b81bc8aa5511fcec&#39; ,params);window[&#34;svg_b81bc8aa5511fcec&#34;] = svg_pzlet button = document.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Board" />
+<meta property="og:description" content="github action 01/02/2021schematics 01/02/2021 commit 1a7d5bbbview pdfTop View#Full Screenfunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-b81bc8aa5511fcec&#39; ,params);window[&#34;svg_b81bc8aa5511fcec&#34;] = svg_pzlet button = document." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://superpower.github.io/docs/uc/lowcost_single/board/" />
+
+<title>Board | Super Power IoT</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.735b6849677de59e1feb300b389bb45db29dadbd954aef8eaa29542edea3aa8f.css" integrity="sha256-c1toSWd95Z4f6zALOJu0XbKdrb2VSu&#43;OqilULt6jqo8=">
+<script defer src="/en.search.min.c6110f2db53089b28deb0e6a7e892384202fbe854878b35802bec0f38b1ff135.js" integrity="sha256-xhEPLbUwibKN6w5qfokjhCAvvoVIeLNYAr7A84sf8TU="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>Super Power IoT</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul class="menu-cluster" >
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>PROJECT</span>
+  
+
+          
+  <ul class="menu-cluster" >
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/project/guidelines/" class="">Guidelines</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/project/license/" class="">License</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/project/howto/" class="">This Website How to</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>Microcontroller Solar Power</span>
+  
+
+          
+  <ul class="menu-cluster" >
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-6c492cf49cd6adf2f25b7e5c4d4accd8" class="toggle"  />
+    <label for="section-6c492cf49cd6adf2f25b7e5c4d4accd8" class="flex justify-between">
+      <a  class="">Apollo Board</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul class="menu-cluster" >
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/uc/original/schematics/" class="">Schematics (ESP32 shield)</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/uc/original/board/" class="">Board (ESP32 shield)</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/uc/original/ibom/" class="">Interactive BOM</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c380057a5724daecfad728ce89e6f049" class="toggle"  />
+    <label for="section-c380057a5724daecfad728ce89e6f049" class="flex justify-between">
+      <a  class="">Artemis Stacked</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul class="menu-cluster" >
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/uc/lowcost/schematics/" class="">Schematics with ESP32</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/uc/lowcost/board/" class="">Board</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/uc/lowcost/ibom/" class="">Interactive BOM</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f24d19e039fe0d10b194aead08623b70" class="toggle" checked />
+    <label for="section-f24d19e039fe0d10b194aead08623b70" class="flex justify-between">
+      <a  class="">Artemis Single</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul class="menu-cluster" >
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/uc/lowcost_single/schematics/" class="">Schematics with ESP32</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/uc/lowcost_single/board/" class=" active">Board</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/uc/lowcost_single/ibom/" class="">Interactive BOM</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/uc/features/" class="">Features</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/uc/requirements/" class="">Requirements</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/uc/workflow/" class="">Workflow</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/uc/diagrams/" class="">Diagrams</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>Raspberry Pi Project &#34;Leto&#34;</span>
+  
+
+          
+  <ul class="menu-cluster" >
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/rpi/description/" class="">Description</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/rpi/requirements/" class="">Requirements</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/rpi/schematics/" class="">Schematics</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/rpi/board/" class="">Board</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/rpi/developers/" class="">Developers Section</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://superpower.github.io/docs/rpi/ibom/" class="">Interactive BOM</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://github.com/SensorsIot/SuperPower" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+        Project Repo
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://github.com/SuperPower/hugo_website" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 32 32" fill="none" stroke="currentColor"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">        <g id="icon-55-document-text" sketch:type="MSArtboardGroup" fill="#ffffff">            <path d="M19.5,3 L9.00276013,3 C7.89666625,3 7,3.89833832 7,5.00732994 L7,27.9926701 C7,29.1012878 7.89092539,30 8.99742191,30 L24.0025781,30 C25.1057238,30 26,29.1017876 26,28.0092049 L26,10.5 L26,10 L20,3 L19.5,3 L19.5,3 L19.5,3 Z M19,4 L8.9955775,4 C8.44573523,4 8,4.45526288 8,4.99545703 L8,28.004543 C8,28.5543187 8.45470893,29 8.9999602,29 L24.0000398,29 C24.5523026,29 25,28.5550537 25,28.0066023 L25,11 L20.9979131,11 C19.8944962,11 19,10.1134452 19,8.99408095 L19,4 L19,4 Z M20,4.5 L20,8.99121523 C20,9.54835167 20.4506511,10 20.9967388,10 L24.6999512,10 L20,4.5 L20,4.5 Z M10,10 L10,11 L17,11 L17,10 L10,10 L10,10 Z M10,7 L10,8 L17,8 L17,7 L10,7 L10,7 Z M10,13 L10,14 L23,14 L23,13 L10,13 L10,13 Z M10,16 L10,17 L23,17 L23,16 L10,16 L10,16 Z M10,19 L10,20 L23,20 L23,19 L10,19 L10,19 Z M10,22 L10,23 L23,23 L23,22 L10,22 L10,22 Z M10,25 L10,26 L23,26 L23,25 L10,25 L10,25 Z" id="document-text" sketch:type="MSShapeGroup"></path>        </g>    </g></svg>
+        Doc Repo
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://github.com/wassfila" target="_blank" rel="noopener">
+        Doc Maintainer
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <script src="https://cdn.babylonjs.com/viewer/babylon.viewer.js"></script>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+<script src="/js/svg-pan-zoom.min.js"></script>
+<div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Board</strong>
+
+  <label for="toc-control">
+    
+  </label>
+</div>
+
+
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown">
+<div class="container">
+    <div class="row">
+        <div class="col text-center">
+        <a class="book-btn" href="https://github.com/Informaticore/SuperPower/actions/runs/527382835" role="button" target="_blank">github action 01/02/2021</a>
+        </div>
+        <br>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col text-center">
+        <a class="book-btn" href="https://github.com/Informaticore/SuperPower/commit/1a7d5bbb91955d6d0b11a8e455e990e1fe4743bb" role="button" target="_blank">schematics 01/02/2021 commit 1a7d5bbb</a>
+        </div>
+        <br>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col text-center">
+        <a class="book-btn" href="https://superpower.github.io/lowcost_single/layout/SuperPower-uC-KiCad-Board.pdf" role="button" target="_blank">view pdf</a>
+        </div>
+        <br>
+    </div>
+</div>
+
+<h2 id="top-view">
+  Top View
+  <a class="anchor" href="#top-view">#</a>
+</h2>
+
+
+
+<div class="container">
+  <div class="row">
+      <div class="col text-center">
+          <a id="btn-b81bc8aa5511fcec" class="book-btn" role="button" >Full Screen</a>
+      </div>
+</div>
+<embed id="svg-b81bc8aa5511fcec" type="image/svg+xml" width=100% src="/lowcost_single/layout/SuperPower-uC-KiCad-Board_top.svg"  style="background-color:white"/>
+<script>
+  function setup_svg_panzoom(){
+    let params = {
+          panEnabled: true,
+          zoomEnabled: true,
+          dblClickZoomEnabled: true,
+          controlIconsEnabled: false,
+          mouseWheelZoomEnabled: true,
+          preventMouseEventsDefault: true,
+          zoomScaleSensitivity: 0.6,
+          minZoom: 0.5,
+          maxZoom: 4,
+           fit: true
+          , contain: true
+          , center: true
+          , refreshRate: 'auto'
+      };
+      let svg_pz = svgPanZoom('#svg-b81bc8aa5511fcec'        ,params);
+      window["svg_b81bc8aa5511fcec"] = svg_pz
+      let button = document.getElementById("btn-b81bc8aa5511fcec");
+      button.onclick = ()=>{
+          var elem = document.getElementById("svg-b81bc8aa5511fcec");
+          if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+          } else if (elem.webkitRequestFullscreen) {  
+          elem.webkitRequestFullscreen();
+          } else if (elem.msRequestFullscreen) {  
+          elem.msRequestFullscreen();
+          }
+      };
+  }
+  function reset_position(){
+    window["svg_b81bc8aa5511fcec"].resize()
+    window["svg_b81bc8aa5511fcec"].fit()
+    window["svg_b81bc8aa5511fcec"].center()
+  }
+  document.getElementById('svg-b81bc8aa5511fcec').addEventListener('load', setup_svg_panzoom)
+  window.addEventListener('resize', reset_position)
+ </script>
+
+<h2 id="bottom-view">
+  Bottom View
+  <a class="anchor" href="#bottom-view">#</a>
+</h2>
+
+
+
+<div class="container">
+  <div class="row">
+      <div class="col text-center">
+          <a id="btn-5f94cfa3f88106d5" class="book-btn" role="button" >Full Screen</a>
+      </div>
+</div>
+<embed id="svg-5f94cfa3f88106d5" type="image/svg+xml" width=100% src="/lowcost_single/layout/SuperPower-uC-KiCad-Board_bottom.svg"  style="background-color:white"/>
+<script>
+  function setup_svg_panzoom(){
+    let params = {
+          panEnabled: true,
+          zoomEnabled: true,
+          dblClickZoomEnabled: true,
+          controlIconsEnabled: false,
+          mouseWheelZoomEnabled: true,
+          preventMouseEventsDefault: true,
+          zoomScaleSensitivity: 0.6,
+          minZoom: 0.5,
+          maxZoom: 4,
+           fit: true
+          , contain: true
+          , center: true
+          , refreshRate: 'auto'
+      };
+      let svg_pz = svgPanZoom('#svg-5f94cfa3f88106d5'        ,params);
+      window["svg_5f94cfa3f88106d5"] = svg_pz
+      let button = document.getElementById("btn-5f94cfa3f88106d5");
+      button.onclick = ()=>{
+          var elem = document.getElementById("svg-5f94cfa3f88106d5");
+          if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+          } else if (elem.webkitRequestFullscreen) {  
+          elem.webkitRequestFullscreen();
+          } else if (elem.msRequestFullscreen) {  
+          elem.msRequestFullscreen();
+          }
+      };
+  }
+  function reset_position(){
+    window["svg_5f94cfa3f88106d5"].resize()
+    window["svg_5f94cfa3f88106d5"].fit()
+    window["svg_5f94cfa3f88106d5"].center()
+  }
+  document.getElementById('svg-5f94cfa3f88106d5').addEventListener('load', setup_svg_panzoom)
+  window.addEventListener('resize', reset_position)
+ </script>
+
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

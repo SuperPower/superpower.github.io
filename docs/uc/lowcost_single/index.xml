@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artemis Single on Super Power IoT</title>
+    <link>https://superpower.github.io/docs/uc/lowcost_single/</link>
+    <description>Recent content in Artemis Single on Super Power IoT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://superpower.github.io/docs/uc/lowcost_single/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Schematics with ESP32</title>
+      <link>https://superpower.github.io/docs/uc/lowcost_single/schematics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/uc/lowcost_single/schematics/</guid>
+      <description>schematics 24/01/2021 commit d7be486Top View#Full Screenfunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-c928a1fb27477b48&#39; ,params);window[&#34;svg_c928a1fb27477b48&#34;] = svg_pzlet button = document.getElementById(&#34;btn-c928a1fb27477b48&#34;);button.onclick = ()={var elem = document.</description>
+    </item>
+    
+    <item>
+      <title>Board</title>
+      <link>https://superpower.github.io/docs/uc/lowcost_single/board/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/uc/lowcost_single/board/</guid>
+      <description>github action 01/02/2021schematics 01/02/2021 commit 1a7d5bbbview pdfTop View#Full Screenfunction setup_svg_panzoom(){let params = {panEnabled: true,zoomEnabled: true,dblClickZoomEnabled: true,controlIconsEnabled: false,mouseWheelZoomEnabled: true,preventMouseEventsDefault: true,zoomScaleSensitivity: 0.6,minZoom: 0.5,maxZoom: 4,fit: true, contain: true, center: true, refreshRate: &#39;auto&#39;};let svg_pz = svgPanZoom(&#39;#svg-b81bc8aa5511fcec&#39; ,params);window[&#34;svg_b81bc8aa5511fcec&#34;] = svg_pzlet button = document.</description>
+    </item>
+    
+    <item>
+      <title>Interactive BOM</title>
+      <link>https://superpower.github.io/docs/uc/lowcost_single/ibom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/uc/lowcost_single/ibom/</guid>
+      <description>Interactive Bill of Materials#schematics 24/01/2021 commit d7be486Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-e4c4d3451377ce48&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-e4c4d3451377ce48&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
+    </item>
+    
+  </channel>
+</rss>
