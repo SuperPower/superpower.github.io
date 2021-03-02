@@ -5,17 +5,18 @@
   <meta name="generator" content="Hugo 0.79.1" />
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Project guidelines">
-<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Guidelines" />
-<meta property="og:description" content="Project guidelines" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://superpower.github.io/docs/project/guidelines/" />
+<meta name="description" content="">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://superpower.github.io/docs/uc/prod/" />
 
-<title>Guidelines | Super Power IoT</title>
+<title>Prod | Super Power IoT</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.735b6849677de59e1feb300b389bb45db29dadbd954aef8eaa29542edea3aa8f.css" integrity="sha256-c1toSWd95Z4f6zALOJu0XbKdrb2VSu&#43;OqilULt6jqo8=">
 <script defer src="/en.search.min.0a42a37b6655ec2bb6c21e06c6b324159d8fd71326964b2d2f140384f18fb049.js" integrity="sha256-CkKje2ZV7Cu2wh4GxrMkFZ2P1xMmlkstLxQDhPGPsEk="></script>
+<link rel="alternate" type="application/rss+xml" href="https://superpower.github.io/docs/uc/prod/index.xml" title="Super Power IoT" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -80,7 +81,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://superpower.github.io/docs/project/guidelines/" class=" active">Guidelines</a>
+    <a href="https://superpower.github.io/docs/project/guidelines/" class="">Guidelines</a>
   
 
         </li>
@@ -198,9 +199,9 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-5f78b38d3d9a6b7e3ee8fdacfd7fc8d0" class="toggle"  />
+    <input type="checkbox" id="section-5f78b38d3d9a6b7e3ee8fdacfd7fc8d0" class="toggle" checked />
     <label for="section-5f78b38d3d9a6b7e3ee8fdacfd7fc8d0" class="flex justify-between">
-      <a  class="">Prod</a>
+      <a  class="active">Prod</a>
       <span>▾</span>
     </label>
   
@@ -564,7 +565,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Guidelines</strong>
+  <strong>Prod</strong>
 
   <label for="toc-control">
     
@@ -577,20 +578,7 @@ https://github.com/alex-shpak/hugo-book
   
   <aside class="hidden clearfix">
     
-  <nav id="TableOfContents">
-  <ul>
-    <li><a href="#guidelines">Guidelines</a></li>
-    <li><a href="#schematics">Schematics</a>
-      <ul>
-        <li><a href="#clean-text-placement">Clean Text placement</a></li>
-        <li><a href="#layout-flow">Layout flow</a></li>
-        <li><a href="#schematic-symbols">Schematic Symbols</a></li>
-        <li><a href="#direct-connections-within-reason">Direct connections, within reason</a></li>
-        <li><a href="#nets-and-labels">NETs and Labels</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+  <nav id="TableOfContents"></nav>
 
 
   </aside>
@@ -600,113 +588,7 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h2 id="guidelines">
-  Guidelines
-  <a class="anchor" href="#guidelines">#</a>
-</h2>
-<p>Good schematics show you the circuit. Bad schematics make you decipher them.
-Here you can find a bunch of guidelines we set up to get consistent schematics along the project.</p>
-<h2 id="schematics">
-  Schematics
-  <a class="anchor" href="#schematics">#</a>
-</h2>
-<h3 id="clean-text-placement">
-  Clean Text placement
-  <a class="anchor" href="#clean-text-placement">#</a>
-</h3>
-<ul>
-<li>After placing a symbol make sure the designator is close to the symbol and does not overlap other text or tracks</li>
-<li>Make some space and move parts if they are too close</li>
-<li>Do not place text verticaly</li>
-</ul>
-<div class="book-columns flex flex-wrap">
-  
-  <div class="flex-even markdown-inner">
-    <img src="/images/clean-text-dont.jpg" alt="img">
-  </div>
-  
-  <div class="flex-even markdown-inner">
-    <img src="/images/clean-text-do.jpg" alt="img">
-  </div>
-  
-</div>
-
-<h3 id="layout-flow">
-  Layout flow
-  <a class="anchor" href="#layout-flow">#</a>
-</h3>
-<ul>
-<li>Logical flow from left to right</li>
-<li>Power connectioncs should go up to positive voltages and down to negative voltages</li>
-<li>Rotate common symbols the same way to find similarities faster in a schematics</li>
-</ul>
-<div class="book-columns flex flex-wrap">
-  
-  <div class="flex-even markdown-inner">
-    <img src="/images/layout-flow-dont.jpg" alt="img">
-  </div>
-  
-  <div class="flex-even markdown-inner">
-    <img src="/images/layout-flow-do.jpg" alt="img">
-  </div>
-  
-</div>
-
-<h3 id="schematic-symbols">
-  Schematic Symbols
-  <a class="anchor" href="#schematic-symbols">#</a>
-</h3>
-<ul>
-<li>Show pins of an IC in a position relevant to their function, not how they happen to stick out of the chip.</li>
-<li>Positive pins top the top</li>
-<li>Negative pins to the bottom</li>
-<li>Inputs to the left</li>
-<li>Outputs to the right</li>
-</ul>
-<div class="book-columns flex flex-wrap">
-  
-  <div class="flex-even markdown-inner">
-    <img src="/images/pin-draw-dont.jpg" alt="img">
-  </div>
-  
-  <div class="flex-even markdown-inner">
-    <img src="/images/pin-draw-do.jpg" alt="img">
-  </div>
-  
-</div>
-
-<h3 id="direct-connections-within-reason">
-  Direct connections, within reason
-  <a class="anchor" href="#direct-connections-within-reason">#</a>
-</h3>
-<ul>
-<li>reduce wire crossing and alike as much as possible for clarity</li>
-<li>draw dots on junctions if your tool does not do it for you (if not you should use a better one)</li>
-</ul>
-<div class="book-columns flex flex-wrap">
-  
-  <div class="flex-even markdown-inner">
-    <img src="/images/wire-dont.jpg" alt="img">
-  </div>
-  
-  <div class="flex-even markdown-inner">
-    <img src="/images/wire-do.jpg" alt="img">
-  </div>
-  
-</div>
-
-<h3 id="nets-and-labels">
-  NETs and Labels
-  <a class="anchor" href="#nets-and-labels">#</a>
-</h3>
-<ul>
-<li>Give your NETs nicely readable names</li>
-<li>But keep them reasonably short</li>
-<li>Always try to use your tool to select a NET instead of writing it by hand to avoind spelling mistakes</li>
-<li>Use upper case for NET Labels</li>
-<li>See this <a href="https://www.altium.com/files/libraries/ls0001_pinabbreviation.pdf">ANSI/IEEE standard</a> for recommended pin name abbreviations.</li>
-</ul>
-</article>
+  <article class="markdown"></article>
  
       
 
@@ -726,10 +608,6 @@ Here you can find a bunch of guidelines we set up to get consistent schematics a
 
       
   
-  <div class="book-comments">
-
-</div>
-  
  
 
       <label for="menu-control" class="hidden book-menu-overlay"></label>
@@ -738,20 +616,7 @@ Here you can find a bunch of guidelines we set up to get consistent schematics a
     
     <aside class="book-toc">
       
-  <nav id="TableOfContents">
-  <ul>
-    <li><a href="#guidelines">Guidelines</a></li>
-    <li><a href="#schematics">Schematics</a>
-      <ul>
-        <li><a href="#clean-text-placement">Clean Text placement</a></li>
-        <li><a href="#layout-flow">Layout flow</a></li>
-        <li><a href="#schematic-symbols">Schematic Symbols</a></li>
-        <li><a href="#direct-connections-within-reason">Direct connections, within reason</a></li>
-        <li><a href="#nets-and-labels">NETs and Labels</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+  <nav id="TableOfContents"></nav>
 
  
     </aside>
