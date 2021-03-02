@@ -31,7 +31,7 @@
   </url>
   
   <url>
-    <loc>https://superpower.github.io/docs/uc/prod/</loc>
+    <loc>https://superpower.github.io/docs/uc/prod/apv100/</loc>
   </url>
   
   <url>
@@ -68,10 +68,6 @@
   
   <url>
     <loc>https://superpower.github.io/docs/rpi/requirements/</loc>
-  </url>
-  
-  <url>
-    <loc>https://superpower.github.io/docs/uc/prod/board/</loc>
   </url>
   
   <url>
@@ -120,6 +116,10 @@
   
   <url>
     <loc>https://superpower.github.io/docs/rpi/ibom/</loc>
+  </url>
+  
+  <url>
+    <loc>https://superpower.github.io/docs/uc/prod/</loc>
   </url>
   
   <url>

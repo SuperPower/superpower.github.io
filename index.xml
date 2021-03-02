@@ -54,6 +54,15 @@ Schematics#Clean Text placement# After placing a symbol make sure the desi
     </item>
     
     <item>
+      <title>v1.00</title>
+      <link>https://superpower.github.io/docs/uc/prod/apv100/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://superpower.github.io/docs/uc/prod/apv100/</guid>
+      <description>28/02/2021 commit ee35dadeeTop View#Bottom View#</description>
+    </item>
+    
+    <item>
       <title>Board</title>
       <link>https://superpower.github.io/docs/uc/lowcost/board/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -116,15 +125,6 @@ CERN has developed this licence to promote collaboration among hardware designer
       
       <guid>https://superpower.github.io/docs/rpi/requirements/</guid>
       <description>Requirements#Full screenOpen in a new pagevar button = document.getElementById(&#34;btn-636e81262af8d0df&#34;);button.onclick = ()={var elem = document.getElementById(&#34;ifm-636e81262af8d0df&#34;);if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) { elem.msRequestFullscreen();}};</description>
-    </item>
-    
-    <item>
-      <title>v1.00</title>
-      <link>https://superpower.github.io/docs/uc/prod/board/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://superpower.github.io/docs/uc/prod/board/</guid>
-      <description>28/02/2021 commit ee35dadeeTop View#Bottom View#</description>
     </item>
     
     <item>
